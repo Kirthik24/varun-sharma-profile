@@ -5,7 +5,7 @@ const RsProjects = () => {
     <div className="rsprojects">
           <div className="para">
             <div className="heading">
-            <h2>Major Projects</h2>
+            <h3>Major Projects</h3>
             </div>
             <div className="points">
                 <ul>
@@ -72,7 +72,7 @@ Duration - 3 Years (Completed)</li>
 
         <div className="para">
             <div className="heading">
-            <h2>Consultancy Projects</h2>
+            <h3>Consultancy Projects</h3>
             </div>
             <div className="points">
                 <ul>
