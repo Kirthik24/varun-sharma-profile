@@ -1,0 +1,60 @@
+.rsnavbar {
+    height: 56px;
+    width: 100vw;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2D5186;
+    margin-top: 60px;
+}
+
+.rsselectbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 200px;
+    height: 72px;
+    border: 2px solid #2D5186;
+    border-radius: 8px;
+}
+
+.rscontainer{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    
+}
+.rsnav-elements {
+    position: relative;
+    ul{
+        display: flex;
+        gap: 25px;
+        justify-content:space-around;
+        list-style-type: none;
+        padding: 0px;
+        a {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #2D5186;
+        }
+        a.active{
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23px;
+            color: #FFFFFF;
+            .rsselectbox{
+                background: #2D5186;
+            }
+        }
+        
+    }
+}
+  
+  

@@ -15,16 +15,19 @@ const Navbar = () =>{
                             <NavLink to="/"> <div className='selectbox'>Profile</div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/myorders"> <div className='selectbox'>Books</div> </NavLink> 
+                            <NavLink to="/myorders"> <div className='selectbox'>Teams</div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/register"> <div className='selectbox'>Research</div> </NavLink> 
+                            <NavLink to="/research/phd"> <div className='selectbox'>Research</div> </NavLink> 
+                        </li>
+                        <li>
+                            <NavLink to="/login"> <div className='selectbox'>Publications</div> </NavLink> 
+                        </li>
+                        <li>
+                            <NavLink to="/login"> <div className='selectbox'>Facilities</div> </NavLink> 
                         </li>
                         <li>
                             <NavLink to="/login"> <div className='selectbox'>Gallery</div> </NavLink> 
-                        </li>
-                        <li>
-                            <NavLink to="/login"> <div className='selectbox'>International Affairs</div> </NavLink> 
                         </li>
                     </ul>
                 </div>

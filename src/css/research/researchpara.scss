@@ -1,0 +1,42 @@
+.para{
+    .heading{
+        display: flex;
+        align-items: center;
+        h2{
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 45px;
+            text-align: center;
+            color: #000000;
+        }
+
+    }
+
+    ul{
+        li{
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 27px;
+            margin: 16px;
+        }
+    }
+}
+
+.rsphd{
+    .phdstatus{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        color: #000000;
+        position: relative;
+        left: 1120px;
+        top: -28px;
+        margin: 0;
+    }
+}

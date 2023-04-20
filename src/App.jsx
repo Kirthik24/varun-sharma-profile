@@ -11,8 +11,12 @@ import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Navbar from "./components/Navbar";
 import InternationalJournals from "./components/InternationalJournals";
-
-
+import Research from "./pages/Research";
+import ResearchNav from "./components/research/ResearchNav";
+import RsBtech from "./components/research/RsBtech";
+import RsPhd from "./components/research/RsPhd";
+import RsMtech from "./components/research/Rsmtech";
+import RsProjects from "./components/research/RsProjects";
 const Layout = () => {
   return(
     <>
@@ -22,6 +26,19 @@ const Layout = () => {
     </>
   );
 }
+
+const ResearchLayout = () => {
+  return(
+    <>
+      <Navbar/>
+      <Research/>
+      <ResearchNav/>
+      <Outlet/>
+      {/* <Footer/> */}
+    </>
+  );
+}
+
 
 const router = createBrowserRouter([
   {
@@ -36,7 +53,29 @@ const router = createBrowserRouter([
         path:"/ia",
         element:<InternationalJournals/>
       },
-      
+    ]
+  },
+  {
+    path: "/research",
+    element: <ResearchLayout/>,
+    children:[
+      {
+        path:"/research/phd",
+        element: <RsPhd/>
+      },
+      {
+        path:"/research/mtech",
+        element: <RsMtech/>
+      },
+      {
+        path:"/research/projects",
+        element: <RsProjects/>
+      },
+      {
+        path:"/research/btech",
+        element: <RsBtech/>
+      },
+
     ]
   },
  

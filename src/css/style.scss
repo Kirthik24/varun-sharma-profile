@@ -16,5 +16,8 @@ body{
         a:link { 
             text-decoration: none; 
         }    
+        li::marker {
+            color: #2D5186;
+        }
     }
 }
