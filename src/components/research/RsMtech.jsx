@@ -29,4 +29,4 @@ alloys
   )
 }
 
-export default RsMtech
+export default RsMtech;

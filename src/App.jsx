@@ -7,7 +7,7 @@ import {
   Outlet
 } from "react-router-dom";
 import './css/style.scss'
-import Home from "./pages/Home";
+
 import Profile from "./pages/Profile";
 import Navbar from "./components/Navbar";
 import InternationalJournals from "./components/InternationalJournals";
@@ -15,8 +15,8 @@ import Research from "./pages/Research";
 import ResearchNav from "./components/research/ResearchNav";
 import RsBtech from "./components/research/RsBtech";
 import RsPhd from "./components/research/RsPhd";
-import RsMtech from "./components/research/Rsmtech";
 import RsProjects from "./components/research/RsProjects";
+import RsMtech from "./components/research/Rsmtech";
 const Layout = () => {
   return(
     <>
