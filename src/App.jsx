@@ -16,7 +16,7 @@ import RsBtech from "./components/research/RsBtech";
 import RsPhd from "./components/research/RsPhd";
 import RsProjects from "./components/research/RsProjects";
 import RsMtech from "./components/research/RsMtech";
-import PbNav from "./components/publications/pbnav";
+import PbNav from "./css/publications/PbNav";
 import Ij from "./components/publications/Ij";
 const Layout = () => {
   return(
