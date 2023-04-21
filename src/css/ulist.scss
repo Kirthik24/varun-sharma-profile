@@ -2,6 +2,7 @@
     .heading{
         display: flex;
         align-items: center;
+        
         h2{
             font-family: 'Georgia';
             font-style: normal;
@@ -21,12 +22,14 @@
             color: #000000;
             text-decoration: underline;
             text-decoration-color: #2D5186;
-            text-underline-offset: 18px;
+            text-underline-offset: 10px;
         }
     }
 
+    
     ul{
         li{
+            
             font-family: 'Georgia';
             font-style: normal;
             font-weight: 400;

@@ -10,13 +10,14 @@ import './css/style.scss'
 
 import Profile from "./pages/Profile";
 import Navbar from "./components/Navbar";
-import InternationalJournals from "./components/InternationalJournals";
 import Research from "./pages/Research";
 import ResearchNav from "./components/research/ResearchNav";
 import RsBtech from "./components/research/RsBtech";
 import RsPhd from "./components/research/RsPhd";
 import RsProjects from "./components/research/RsProjects";
 import RsMtech from "./components/research/RsMtech";
+import PbNav from "./components/publications/pbnav";
+import Ij from "./components/publications/Ij";
 const Layout = () => {
   return(
     <>
@@ -39,6 +40,18 @@ const ResearchLayout = () => {
   );
 }
 
+const PbLayout = () => {
+  return(
+    <>
+      <Navbar/>
+      <PbNav/>
+      <Outlet/>
+      {/* <Footer/> */}
+    </>
+  );
+}
+
+
 
 const router = createBrowserRouter([
   {
@@ -48,10 +61,6 @@ const router = createBrowserRouter([
       {
         path:"/",
         element:<Profile/>
-      },
-      {
-        path:"/ia",
-        element:<InternationalJournals/>
       },
     ]
   },
@@ -75,6 +84,34 @@ const router = createBrowserRouter([
         path:"/research/btech",
         element: <RsBtech/>
       },
+
+    ]
+  },
+  {
+    path: "/pb",
+    element: <PbLayout/>,
+    children:[
+      {
+        path:"/pb/books",
+        element: <RsPhd/>
+      },
+      {
+        path:"/pb/bc",
+        element: <RsMtech/>
+      },
+      {
+        path:"/pb/patents",
+        element: <RsProjects/>
+      },
+      {
+        path:"/pb/ic",
+        element: <RsBtech/>
+      },
+      {
+        path:"/pb/ij",
+        element: <Ij/>
+      },
+
 
     ]
   },
