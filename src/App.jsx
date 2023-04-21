@@ -20,6 +20,7 @@ import Ij from "./components/publications/Ij";
 import PbNavigation from "./components/publications/PbNavigation";
 import Books from "./components/publications/Books";
 import BookChapters from "./components/publications/BookChapters";
+import Gallery from "./pages/Gallery";
 const Layout = () => {
   return(
     <>
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
       {
         path:"/",
         element:<Profile/>
+      },
+      {
+        path:"/gallery",
+        element:<Gallery/>
       },
     ]
   },
