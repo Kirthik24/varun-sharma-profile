@@ -1,13 +1,11 @@
 import { NavLink } from 'react-router-dom'
 import '../css/navbar.scss'
 
-
-
-
 const Navbar = () =>{
 
     return (
         <div className="navbar">
+            <div className="image"></div>
             <div className="container">
                 <div className={`nav-elements`}>
                     <ul>

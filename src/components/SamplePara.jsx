@@ -4,24 +4,24 @@
             </div>
             <div className="points">
                 <ul>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
-                   <li></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
+                   <li><span></span></li>
                 </ul>
             </div>
         </div>

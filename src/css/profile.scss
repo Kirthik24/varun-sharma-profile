@@ -9,6 +9,7 @@
         align-items: center;
         gap: 100px;
         width: 1440px;
+        
         .profileimg{
             width: 318px;
             height: 384px;
@@ -38,52 +39,5 @@
                 color: #000000;
             }
         }
-    }
-
-    .para{
-        .heading{
-            display: flex;
-            align-items: center;
-            h2{
-                font-family: 'Georgia';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 40px;
-                line-height: 45px;
-                text-align: center;
-                color: #000000;
-                margin-left: 30px ;
-            }
-            h3{
-                font-family: 'Georgia';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 40px;
-                line-height: 45px;
-                text-align: center;
-                color: #000000;
-                text-decoration: underline;
-                text-decoration-color: #2D5186;
-                text-underline-offset: 18px;
-            }
-    
-        }
-    
-        ul{
-            margin-left: 50px;
-            li{
-                font-family: 'Georgia';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 24px;
-                line-height: 27px;
-                margin: 16px;
-            }
-        }
-    
-        
-    }
-    
-    
-    
+    }   
 }

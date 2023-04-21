@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/profile.scss'
+import '../css/ulist.scss'
 const Profile = () => {
   return (
     <div className="profile">
@@ -28,21 +29,21 @@ const Profile = () => {
             </div>
             <div className="points">
                 <ul>
-                    <li>
+                    <li><span>
                         Ph.D. (2017) <br />
                         Indian Institute of Technology, Delhi <br />
                         Mechanical Engineering <br />
-                    </li>
-                    <li>
+                    </span></li>
+                    <li><span>
                         M.Tech. (2013) <br />
                         Guru Nanak Dev Engineering College, Ludhiana <br />
                         Production Engineering <br />
-                    </li>
-                    <li>
+                    </span></li>
+                    <li><span>
                         B.Tech. (2011) <br />
                         Guru Nanak Dev Engineering College PTU,Jalandhar <br />
                         Production Engineering<br />
-                    </li>
+                    </span></li>
                 </ul>
             </div>
         </div>
@@ -57,27 +58,27 @@ const Profile = () => {
             </div>
             <div className="points">
                 <ul>
-                    <li>
+                    <li><span>
                     Assistant Professor <br />
                     Indian Institute of Technology Roorkee <br />
                     June, 2018 to till date <br />
-                    </li>
-                    <li>
+                    </span></li>
+                    <li><span>
                     Assistant Professor <br />
                     Birla Institute of Technology and Science, Pilani <br />
                     May, 2017 – June, 2018
-                    </li>
-                    <li>
+                    </span></li>
+                    <li><span>
                     Research Associate<br />
                     Indian Institute of Technology Delhi<br />
                     December, 2016 - March, 2017<br />
-                    </li>
+                    </span></li>
 
-                    <li>
+                    <li><span>
                     Research Associate<br />
                     Lovely Professional University<br />
                     August, 2013 – December, 2013<br />
-                    </li>
+                    </span></li>
                 </ul>
             </div>
         </div>
@@ -93,16 +94,16 @@ const Profile = () => {
             </div>
             <div className="points">
                 <ul>
-                    <li>MIN-101A - Introduction to Mechanical Engineering (B. Tech.)</li>
-                    <li>MIN-102 - Basic Manufacturing Processes (B. Tech.) </li>
-                    <li>MIN-104 - Manufacturing Technology - I (B. Tech.)</li>
-                    <li>MIN-208 - Theory of Production Processes (B. Tech.)</li>
-                    <li>MIN-309 - Theory of Production Processes - II (B. Tech.)</li>
-                    <li>IDN-523 - Rapid Prototyping (M. Tech.)</li>
-                    <li>MIN-571 - Quality Management (M. Tech.)</li>
-                    <li>MIN-572 - Advanced Manufacturing Processes (M. Tech.)</li>
-                    <li>MIN-601 - Additive Manufacturing (M. Tech.)</li>
-                    <li>MIN-629 - Reverse Engineering and Rapid Tooling (M. Tech.)</li>
+                    <li><span>MIN-101A - Introduction to Mechanical Engineering (B. Tech.)</span></li>
+                    <li><span>MIN-102 - Basic Manufacturing Processes (B. Tech.) </span></li>
+                    <li><span>MIN-104 - Manufacturing Technology - I (B. Tech.)</span></li>
+                    <li><span>MIN-208 - Theory of Production Processes (B. Tech.)</span></li>
+                    <li><span>MIN-309 - Theory of Production Processes - II (B. Tech.)</span></li>
+                    <li><span>IDN-523 - Rapid Prototyping (M. Tech.)</span></li>
+                    <li><span>MIN-571 - Quality Management (M. Tech.)</span></li>
+                    <li><span>MIN-572 - Advanced Manufacturing Processes (M. Tech.)</span></li>
+                    <li><span>MIN-601 - Additive Manufacturing (M. Tech.)</span></li>
+                    <li><span>MIN-629 - Reverse Engineering and Rapid Tooling (M. Tech.)</span></li>
                 </ul>
             </div>
         </div>
@@ -119,19 +120,19 @@ const Profile = () => {
             </div>
             <div className="points">
                 <ul>
-                    <li>
+                    <li><span>
                     Idea conceptualization through<br />
                     additive/subtractive manufacturing methods (July 08-12, 2019)<br />
                     Sponsor - AICTE<br />
                     Organizer - MIED, IIT
                     Roorkee
-                    </li>
-                    <li>
+                    </span></li>
+                    <li><span>
                     Additive and Subtractive manufacturing for advanced engineering applications:<br />
                     Challenges and Future Aspects (February 24-25, 2022)<br />
                     Sponsor - ARDB   DRDO<br />
                     Organizer - MIED, IIT Roorkee
-                    </li>
+                    </span></li>
                 </ul>
             </div>
         </div>
@@ -148,18 +149,18 @@ const Profile = () => {
             </div>
             <div className="points">
                 <ul>
-                   <li>Member, Faculty Search Committee, 2018-2019</li>
-                   <li>Member, Planning, Information, and Special Event Cell, 2018-till date</li>
-                   <li>Professor-In-charge, Metrology Lab, Production and Industrial Engineering Laboratories, 2018-till date</li>
-                   <li>Deputy Office-In-charge, Placement, 2019-2020</li>
-                   <li>Co-ordinator, Modern Workshop, 2020-2021</li>
-                   <li>Co-ordinator, Placement, 2020-2021</li>
-                   <li>Member, Department Administrative Committee, 2021-till date</li>
-                   <li>Member, Time Table Committee, 2021-till date</li>
-                   <li>Warden, Radhakrishnan Bhawan, 2020-2021</li>
-                   <li>Chief Warden, Radhakrishnan Bhawan, 2022-till date</li>
-                   <li>Maintenance head in charge of MIED, West Block, 2022-till date</li>
-                   <li>Joint Faculty in Department of Design: 2020- till date</li>
+                   <li><span>Member, Faculty Search Committee, 2018-2019</span></li>
+                   <li><span>Member, Planning, Information, and Special Event Cell, 2018-till date</span></li>
+                   <li><span>Professor-In-charge, Metrology Lab, Production and Industrial Engineering Laboratories, 2018-till date</span></li>
+                   <li><span>Deputy Office-In-charge, Placement, 2019-2020</span></li>
+                   <li><span>Co-ordinator, Modern Workshop, 2020-2021</span></li>
+                   <li><span>Co-ordinator, Placement, 2020-2021</span></li>
+                   <li><span>Member, Department Administrative Committee, 2021-till date</span></li>
+                   <li><span>Member, Time Table Committee, 2021-till date</span></li>
+                   <li><span>Warden, Radhakrishnan Bhawan, 2020-2021</span></li>
+                   <li><span>Chief Warden, Radhakrishnan Bhawan, 2022-till date</span></li>
+                   <li><span>Maintenance head in charge of MIED, West Block, 2022-till date</span></li>
+                   <li><span>Joint Faculty in Department of Design: 2020- till date</span></li>
                 </ul>
             </div>
         </div>
@@ -174,77 +175,77 @@ const Profile = () => {
             </div>
             <div className="points">
                 <ul>
-                   <li>Pharmaceutical applications of 3D printing <br />
+                   <li><span>Pharmaceutical applications of 3D printing <br />
 DDM College of Pharmacy, Una, Himachal
-Pradesh</li>
-                   <li>Design of experimentation using Minitab <br />
+Pradesh</span></li>
+                   <li><span>Design of experimentation using Minitab <br />
 Guru Nanak Dev Engineering College,
-Ludhiana, Punjab</li>
-                   <li>3D printing: State of the art<br />
-Chandigarh University, Mohali, Punjab</li>
-                   <li>Introduction to 3D printing<br />
-DIC, IIT Roorkee, Roorkee Uttarakhand</li>
-                   <li>Sustainable manufacturing through ultrasonic
+Ludhiana, Punjab</span></li>
+                   <li><span>3D printing: State of the art<br />
+Chandigarh University, Mohali, Punjab</span></li>
+                   <li><span>Introduction to 3D printing<br />
+DIC, IIT Roorkee, Roorkee Uttarakhand</span></li>
+                   <li><span>Sustainable manufacturing through ultrasonic
 assisted turning process <br />
-DIC, IIT Roorkee, Roorkee Uttarakhand</li>
-                   <li>Additive manufacturing techniques for product
+DIC, IIT Roorkee, Roorkee Uttarakhand</span></li>
+                   <li><span>Additive manufacturing techniques for product
 development<br />
 Roorkee Institute of Technology, Roorkee,
-Uttarakhand</li>
-                   <li>Additive Manufacturing: Recent Trends and
+Uttarakhand</span></li>
+                   <li><span>Additive Manufacturing: Recent Trends and
 Challenges<br />
-Chandigarh University, Mohali, Punjab</li>
-                   <li>Some insights into additive manufacturing for
+Chandigarh University, Mohali, Punjab</span></li>
+                   <li><span>Some insights into additive manufacturing for
 product development<br />
-DIC, IIT Roorkee, Roorkee Uttarakhand</li>
-                   <li>Design considerations in additive
+DIC, IIT Roorkee, Roorkee Uttarakhand</span></li>
+                   <li><span>Design considerations in additive
 manufacturing<br />
-Chandigarh University, Mohali, Punjab</li>
-                   <li>Abrasive Flow Machining (AFM) of 3D
+Chandigarh University, Mohali, Punjab</span></li>
+                   <li><span>Abrasive Flow Machining (AFM) of 3D
 printed parts using a newly developed
 hydrogel-based abrasive media<br />
 Bundelkhand Institute of Engineering and
-Technology, Jhansi, Uttar Pradesh</li>
-                   <li>3D printing: biomedical applications<br />
-IIT Jammu, Jammu and Kashmir</li>
-                   <li>Quality award models<br />
-AICTE Course, IIT Roorkee</li>
-                   <li>Additive manufacturing: Biomedical
+Technology, Jhansi, Uttar Pradesh</span></li>
+                   <li><span>3D printing: biomedical applications<br />
+IIT Jammu, Jammu and Kashmir</span></li>
+                   <li><span>Quality award models<br />
+AICTE Course, IIT Roorkee</span></li>
+                   <li><span>Additive manufacturing: Biomedical
 applications<br />  
 Department of Mechanical Engineering, CEC,
-Landran</li>
-                   <li>Additive manufacturing: A paradigm shift <br />
+Landran</span></li>
+                   <li><span>Additive manufacturing: A paradigm shift <br />
 8th International, 10th Conference on
 Advancements and Futuristic Trends in <br />
 Mechanical and Materials Engineering
 (AFTMME 2020)
-IIT Ropar</li>
-                   <li>Modern Day Manufacturing through 3D
+IIT Ropar</span></li>
+                   <li><span>Modern Day Manufacturing through 3D
 printing<br />
 3rd International e-Conference on Frontiers in
 Mechanical Engineering and nanoTechnology<br />
 [ICFMET]
 Yashwantrao Patil Science College, Solankur
-and Sanjeevan Engineering & <br />Technology Institute, Panhala, Maharashtra</li>
-                   <li>Session Chair<br />
+and Sanjeevan Engineering & <br />Technology Institute, Panhala, Maharashtra</span></li>
+                   <li><span>Session Chair<br />
 2 nd International Conference on “Industrial and
 Manufacturing Systems”(CIMS-2021)<br />
 Department of Production and Industrial
 Engineering, Punjab Engineering College, <br />Chandigarh, and Department of Industrial and
 Production Engineering Dr. B R Ambedkar <br />National Institute of Technology (NIT),
-Jalandhar</li>
+Jalandhar</span></li>
 
-<li>Additive Manufacturing Part I-Materials for
+<li><span>Additive Manufacturing Part I-Materials for
 Additive Manufacturing<br />
 Department of Mechanical Engineering, Indian
 Institute of Technology (Banaras Hindu <br />
-University) Varanasi</li>
+University) Varanasi</span></li>
 
-<li>Additive manufacturing: Basics and Process
+<li><span>Additive manufacturing: Basics and Process
 Principle<br />
-Bharat Heavy Electricals Limited</li>
-<li>Metal based additive manufacturing<br />
-Bharat Heavy Electricals Limited</li>
+Bharat Heavy Electricals Limited</span></li>
+<li><span>Metal based additive manufacturing<br />
+Bharat Heavy Electricals Limited</span></li>
                 </ul>
             </div>
         </div>

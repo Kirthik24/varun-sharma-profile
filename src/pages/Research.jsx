@@ -1,5 +1,6 @@
 import React from "react"
 import '../css/research/research.scss'
+import '../css/ulist.scss'
 
 function Research() {
     return (
@@ -10,12 +11,12 @@ function Research() {
                 </div>
                 <div className="points">
                     <ul>
-                       <li>Conventional machining</li>
-                       <li>Non-conventional machining</li>
-                       <li>Additive manufacturing</li>
-                       <li>Additive manufacturing in biomedical application</li>
-                       <li>Ultrasonic assisted machining</li>
-                       <li>Sustainable machining</li>
+                       <li><span>Conventional machining</span></li>
+                       <li><span>Non-conventional machining</span></li>
+                       <li><span>Additive manufacturing</span></li>
+                       <li><span>Additive manufacturing in biomedical application</span></li>
+                       <li><span>Ultrasonic assisted machining</span></li>
+                       <li><span>Sustainable machining</span></li>
                     </ul>
                 </div>
             </div>

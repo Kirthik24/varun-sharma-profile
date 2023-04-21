@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/research/researchpara.scss'
+import '../../css/ulist.scss'
 const RsProjects = () => {
   return (
     <div className="rsprojects">
@@ -9,7 +9,7 @@ const RsProjects = () => {
             </div>
             <div className="points">
                 <ul>
-                   <li>Design and development of
+                   <li><span> Design and development of
 novel cutting inserts for
 sustainable machining using
 rapid tooling
@@ -18,8 +18,8 @@ Development Board
 (ARDB/DRDO)
 Amount
 (Rs.) - 27,75,460
-Duration - 3 Years (Completed)</li>
-                   <li>Ultrasonic-assisted grinding of
+Duration - 3 Years (Completed)</span></li>
+                   <li><span> Ultrasonic-assisted grinding of
 difficult-to-cut materials with
 ultrasonically atomized green
 solvents
@@ -28,8 +28,8 @@ Funding Agency - Council of Scientific
 (CSIR)
 Amount
 (Rs.) - 25,60,000
-Duration - 3 Years (Completed)</li>
-                   <li>Investigations into bio-
+Duration - 3 Years (Completed)</span></li>
+                   <li><span> Investigations into bio-
 ceramic-based poly (D, L-
 lactide) composite scaffold
 using stereolithography
@@ -38,8 +38,8 @@ Engineering Research
 Board (SERB), DST
 Amount
 (Rs.) - 26,05,900
-Duration - 2 Years (Completed)</li>
-                   <li>Investigations into bio-
+Duration - 2 Years (Completed)</span></li>
+                   <li><span> Investigations into bio-
 ceramic-based poly (D, L-
 lactide) composite scaffold
 using stereolithography
@@ -48,8 +48,8 @@ Council for Science &
 Technology (UCOST)
 Amount
 (Rs.) - 3,68,000
-Duration - 2 Years (Completed)</li>
-                   <li>Experimental investigations on
+Duration - 2 Years (Completed)</span></li>
+                   <li><span> Experimental investigations on
 FDM and SLA printed
 personalized drug delivery
 system
@@ -57,15 +57,15 @@ Funding Agency - India Egypt S T
 Cooperation
 Amount
 (Rs.) - 11,10,000
-Duration - 2 Years (In-progress)</li>
-                   <li>Experimental investigations
+Duration - 2 Years (In-progress)</span></li>
+                   <li><span> Experimental investigations
 and analysis of oral drug
 delivery systems fabricated
 using 3D printing
 Funding Agency - FIG, IIT Roorkee
 Amount
 (Rs.) - 20,00,000
-Duration - 3 Years (Completed)</li>
+Duration - 3 Years (Completed)</span></li>
                 </ul>
             </div>
         </div>
@@ -76,21 +76,21 @@ Duration - 3 Years (Completed)</li>
             </div>
             <div className="points">
                 <ul>
-                   <li>Studies on improving the
+                   <li><span> Studies on improving the
 efficacy of hydraulic machine
 Funding Agency - M/S Haytcon,
 Muzaffarnagar,
 Uttar Pradesh
 Amount
 (Rs.) - 1,18,000
-Duration - 6 months (Completed)</li>
-                   <li>Certification of analysis
+Duration - 6 months (Completed)</span></li>
+                   <li><span> Certification of analysis
 procedure
 Funding Agency - Aetos Design & Engineering Pvt. Ltd.,
 Bangalore
 Amount
 (Rs.) - 1,18,000
-Duration - 6 months (Completed)</li>
+Duration - 6 months (Completed)</span></li>
                 </ul>
             </div>
         </div>

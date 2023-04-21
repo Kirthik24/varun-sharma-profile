@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/research/researchpara.scss'
+import '../../css/ulist.scss'
 const RsMtech = () => {
   return (
     <div className="rsmtech">
@@ -9,22 +9,22 @@ const RsMtech = () => {
             </div>
             <div className="points">
                 <ul>
-                   <li>Title - Experimental investigations into thermo-
+                   <li><span>Title - Experimental investigations into thermo-
 physical characterization of hybrid nanofluid
-<br />Student - Neetesh Kumar Sah (2020)</li>
+<br />Student - Neetesh Kumar Sah (2020)</span></li>
 <div className="researchstatus">Awarded</div>
-                   <li>Title - 4D printing of self-fitting scaffolds with
+                   <li><span>Title - 4D printing of self-fitting scaffolds with
 nature inspired architecture
 <br />Student - Shubham Shankar
-Mohol (2021)</li>
+Mohol (2021)</span></li>
 <div className="researchstatus">Awarded</div>
-                   <li>Title - Experimental investigations into finishing of
+                   <li><span>Title - Experimental investigations into finishing of
 freeform surface by abrasive flow machining
-<br />Student - Muniram Meena (2022)</li>
+<br />Student - Muniram Meena (2022)</span></li>
 <div className="researchstatus">Awarded</div>
-                   <li>Title - Wire arc additive manufacturing of titanium
+                   <li><span>Title - Wire arc additive manufacturing of titanium
 alloys
-<br />Student - S A Surendar</li>
+<br />Student - S A Surendar</span></li>
 <div className="researchstatus">In-process</div>
                 </ul>
             </div>
