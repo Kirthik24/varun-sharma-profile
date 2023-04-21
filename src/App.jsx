@@ -18,7 +18,7 @@ import RsProjects from "./components/research/RsProjects";
 import RsMtech from "./components/research/RsMtech";
 import Ij from "./components/publications/Ij";
 import PbNavigation from "./components/publications/PbNavigation";
-
+import Books from "./components/publications/Books";
 const Layout = () => {
   return(
     <>
@@ -94,7 +94,7 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/pb/books",
-        element: <RsPhd/>
+        element: <Books/>
       },
       {
         path:"/pb/bc",

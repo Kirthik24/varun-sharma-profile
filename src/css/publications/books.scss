@@ -1,0 +1,40 @@
+.books{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    .bookcard{
+        width: 304px;
+        height: 562px;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .coverimage{
+            width: 240px;
+            height: 283px;
+            background: #D9D9D9;
+        }
+
+        .details{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            gap: 23px;
+            p{
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                margin: 0px;
+                color: #000000;
+                text-align: left;
+            }
+        }
+      
+    }
+
+}
