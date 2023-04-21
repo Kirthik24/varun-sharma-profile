@@ -27,6 +27,9 @@ const Navbar = () =>{
                         <li>
                             <NavLink to="/login"> <div className='selectbox'>Gallery</div> </NavLink> 
                         </li>
+                        <li>
+                            <NavLink to="/login"> <div className='selectbox'>Contact</div> </NavLink> 
+                        </li>
                     </ul>
                 </div>
             </div>
