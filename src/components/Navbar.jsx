@@ -19,7 +19,7 @@ const Navbar = () =>{
                             <NavLink to="/research/phd"> <div className='selectbox'>Research</div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/pb/ij"> <div className='selectbox'>Publications</div> </NavLink> 
+                            <NavLink to="/pb/books"> <div className='selectbox'>Publications</div> </NavLink> 
                         </li>
                         <li>
                             <NavLink to="/login"> <div className='selectbox'>Facilities</div> </NavLink> 

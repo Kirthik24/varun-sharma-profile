@@ -19,6 +19,7 @@ import RsMtech from "./components/research/RsMtech";
 import Ij from "./components/publications/Ij";
 import PbNavigation from "./components/publications/PbNavigation";
 import Books from "./components/publications/Books";
+import BookChapters from "./components/publications/BookChapters";
 const Layout = () => {
   return(
     <>
@@ -98,7 +99,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/pb/bc",
-        element: <RsMtech/>
+        element: <BookChapters/>
       },
       {
         path:"/pb/patents",
