@@ -16,8 +16,9 @@ import RsBtech from "./components/research/RsBtech";
 import RsPhd from "./components/research/RsPhd";
 import RsProjects from "./components/research/RsProjects";
 import RsMtech from "./components/research/RsMtech";
-import PbNav from "./css/publications/PbNav";
 import Ij from "./components/publications/Ij";
+import PbNavigation from "./components/publications/PbNavigation";
+
 const Layout = () => {
   return(
     <>
@@ -44,7 +45,7 @@ const PbLayout = () => {
   return(
     <>
       <Navbar/>
-      <PbNav/>
+      <PbNavigation/>
       <Outlet/>
       {/* <Footer/> */}
     </>

@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import '../../css/innernav.scss'
 
-const PbNav = () =>{
+const PbNavigation = () =>{
     return (
         <div className="rsnavbar">
             <div className="rscontainer">
@@ -29,4 +29,4 @@ const PbNav = () =>{
     )
 }
 
-export default PbNav
+export default PbNavigation
