@@ -19,5 +19,15 @@ body{
         li::marker {
             color: #2D5186;
         }
+
+        .para{
+            ul{
+                a:link { 
+                    text-decoration: underline;
+                    color: black; 
+                } 
+            }
+        }
+        
     }
 }
