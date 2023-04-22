@@ -2,7 +2,10 @@
     .heading{
         display: flex;
         align-items: center;
-        
+        margin-top: 20px;
+        svg{
+            margin-right: 32px;
+        }
         h2{
             font-family: 'Georgia';
             font-style: normal;

@@ -1,0 +1,114 @@
+
+<b className="patents1">Patents</b>
+            <div className="title-a-container">
+            <p className="title-a-hydrogel-based-abras">
+              <span className="title">Title</span>
+              <b className="title">{` - `}</b>
+              <span>
+                A hydrogel based abrasive media for abrasive flow machining and
+                process of preparation thereof.
+              </span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              <span>Investigators</span>
+              <b className="title">{` `}</b>
+              <span className="title">{`- `}</span>
+              <b className="title">Varun Sharma</b>
+              <span className="title">, Pradeep Kumar, Nitin Dixit</span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Application No. - IN202011001189
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Date: 10/01/2020 (Published)
+            </p>
+          </div>
+          <div className="title-an-container">
+            <p className="title-a-hydrogel-based-abras">
+              <span className="title">Title</span>
+              <b className="title">{` - `}</b>
+              <span>
+                An ultrasonic assisted magnetic abrasive flow machining process and
+                a device therefor.
+              </span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              <span>Investigators</span>
+              <b className="title">{` `}</b>
+              <span className="title">{`- `}</span>
+              <b className="title">Varun Sharma</b>
+              <span className="title">, Pradeep Kumar, Nitin Dixit</span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Application No. - IN202111054926
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Date: 21/11/2021 (Published)
+            </p>
+          </div>
+          <div className="title-a-container1">
+            <p className="title-a-hydrogel-based-abras">
+              <span className="title">Title</span>
+              <b className="title">{` - `}</b>
+              <span>
+                A tragacanth gum hydrogel-based abrasive media for abrasive flow
+                machining and its method of preparation.
+              </span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              <span>Investigators</span>
+              <b className="title">{` `}</b>
+              <span className="title">{`- `}</span>
+              <b className="title">Varun Sharma</b>
+              <span className="title">, Pradeep Kumar, Nitin Dixit</span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Application No. - IN202211012670
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Date: 09/03/2022 (Published)
+            </p>
+          </div>
+          <div className="title-pulse-assisted-container">
+            <p className="title-a-hydrogel-based-abras">
+              <span className="title">Title</span>
+              <b className="title">{` - `}</b>
+              <span>Pulse-assisted hybrid cryo lubrication system</span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              <span>Investigators</span>
+              <b className="title">{` `}</b>
+              <span className="title">{`- `}</span>
+              <b className="title">Varun Sharma</b>
+              <span>, D Narayana, Swamy Naik, Ramandeep Singh</span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Application No. - IN202211044497
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Date: 03/08/2022 (Published)
+            </p>
+          </div>
+          <div className="title-cutting-container">
+            <p className="title-a-hydrogel-based-abras">
+              <span className="title">Title</span>
+              <b className="title">{` - `}</b>
+              <span>
+                Cutting tool insert and method of fabrication cutting tool insert
+              </span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              <span>Investigators</span>
+              <b className="title">{` `}</b>
+              <span className="title">{`- `}</span>
+              <b className="title">Varun Sharma</b>
+              <span className="title">, Rohit Singh</span>
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Application No. - IN202211044497
+            </p>
+            <p className="title-a-hydrogel-based-abras">
+              Date: 02/09/2022 (Published)
+            </p>
+          </div>
+      

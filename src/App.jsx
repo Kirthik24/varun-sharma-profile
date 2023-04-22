@@ -21,6 +21,8 @@ import PbNavigation from "./components/publications/PbNavigation";
 import Books from "./components/publications/Books";
 import BookChapters from "./components/publications/BookChapters";
 import Gallery from "./pages/Gallery";
+import InternationalConference from "./components/publications/InternationalConference";
+import Patents from "./components/publications/Patents";
 const Layout = () => {
   return(
     <>
@@ -108,11 +110,11 @@ const router = createBrowserRouter([
       },
       {
         path:"/pb/patents",
-        element: <RsProjects/>
+        element: <Patents/>
       },
       {
         path:"/pb/ic",
-        element: <RsBtech/>
+        element: <InternationalConference/>
       },
       {
         path:"/pb/ij",

@@ -4,7 +4,9 @@
             </div>
             <div className="points">
                 <ul>
-                   <li><span></span></li>
+                   <li><span>
+                    
+                    </span></li>
                    <li><span></span></li>
                    <li><span></span></li>
                    <li><span></span></li>
