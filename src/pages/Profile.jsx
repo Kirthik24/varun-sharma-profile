@@ -27,7 +27,7 @@ const Profile = () => {
             <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.322 27.2L34 40.8L68 20.4L34 0L0 20.4H34V27.2H11.322ZM0 27.2V54.4L6.8 46.852V31.28L0 27.2ZM34 68L17 57.8L10.2 53.72V33.32L34 47.6L57.8 33.32V53.72L34 68Z" fill="#2D5186"/> </svg>.
             <h2>Education</h2>
             </div>
-            <div className="points">
+            <div className="points profileul">
                 <ul>
                     <li><span>
                         Ph.D. (2017) <br />
@@ -56,7 +56,7 @@ const Profile = () => {
 
             <h2>Academic Experience</h2>
             </div>
-            <div className="points">
+            <div className="points profileul">
                 <ul>
                     <li><span>
                     Assistant Professor <br />
@@ -92,7 +92,7 @@ const Profile = () => {
 
             <h2>Courses Taught</h2>
             </div>
-            <div className="points">
+            <div className="points profileul">
                 <ul>
                     <li><span>MIN-101A - Introduction to Mechanical Engineering (B. Tech.)</span></li>
                     <li><span>MIN-102 - Basic Manufacturing Processes (B. Tech.) </span></li>
@@ -118,7 +118,7 @@ const Profile = () => {
 
             <h2>Short Term Courses/Seminar Organized</h2>
             </div>
-            <div className="points">
+            <div className="points profileul">
                 <ul>
                     <li><span>
                     Idea conceptualization through<br />
@@ -147,7 +147,7 @@ const Profile = () => {
 
             <h2>Non-academic Responsibilities</h2>
             </div>
-            <div className="points">
+            <div className="points profileul">
                 <ul>
                    <li><span>Member, Faculty Search Committee, 2018-2019</span></li>
                    <li><span>Member, Planning, Information, and Special Event Cell, 2018-till date</span></li>
@@ -173,7 +173,7 @@ const Profile = () => {
 
             <h2>Invited Lectures</h2>
             </div>
-            <div className="points">
+            <div className="points profileul">
                 <ul>
                    <li><span>Pharmaceutical applications of 3D printing <br />
 DDM College of Pharmacy, Una, Himachal
