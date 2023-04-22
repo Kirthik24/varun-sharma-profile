@@ -87,17 +87,22 @@ Engineering (COPEN 11), IIT Indore</b>, Dec 12-14, 2019.</span></li>
                 <ul>
                    <li><span>
                    <b>Varun Sharma</b> and Pulak Mohan Pandey. “Study of ultrasonic assisted turning of 4340 steel with
-plane and self-lubricating cutting inserts.” <b>International Manufacturing Science and Engineering
-Conference.</b> Vol. 49897. American Society of Mechanical Engineers, 2016.
-https://doi.org/10.1115/MSEC2016-8565
-<b>ASME 2016 11 th International Manufacturing Science and Engineering Conference
-June 27–July 1, 2016, Blacksburg, Virginia, USA</b>
+                    plane and self-lubricating cutting inserts.” <b>International Manufacturing Science and Engineering
+                    Conference.</b> Vol. 49897. American Society of Mechanical Engineers, 2016.
+                    https://doi.org/10.1115/MSEC2016-8565
+                    <b>ASME 2016 11 th International Manufacturing Science and Engineering Conference
+                    June 27–July 1, 2016, Blacksburg, Virginia, USA</b>
                     </span></li>
 
                    <li><span><b>Varun Sharma</b>, Pulak M. Pandey, Anish Roy, and Uday S. Dixit. “Study of Surface Integrity in
 Conventional and Ultrasonic Assisted Turning with Self-Lubricating Cutting Inserts.” <b>6 th
 International & 27 th All India Manufacturing Technology, Design and Research Conference
 (AIMTDR-2016)</b>, College of Engineering., Pune, Maharashtra, Dec 16-18, 2016.</span></li>
+
+                    <li><span>Nishant Singh, Varun Sharma, Pulak M. Pandey, and K K Singh. “Experimental investigation of
+effect of liquid-cum-gaseous dielectric on EDM performance.” <b>4 th International Conference on
+Production & Industrial Engineering (CPIE-2016)</b> , Dr. B.R Ambedkar National Institute of
+Technology, Jalandhar, Dec 19-21, 2016.</span></li>
 
                    <li><span>Uday Shankar Dixit, Vinod Yadav, <b>Varun Sharma</b>, Pulak M. Pandey, Anish Roy, and V.V.
 Silberschmidt. “Estimation of cutting forces in conventional and ultrasonic-vibration assisted
