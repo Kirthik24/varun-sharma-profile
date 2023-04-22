@@ -62,15 +62,16 @@ hybrid ultrasonic horn profile using finite element analysis.” <b>Materials To
 https://doi.org/10.1016/j.matpr.2020.08.465
 <b>9 th International Conference on Advancements and Futuristic Trends in Mechanical and
 Materials Engineering, IIT Ropar</b>, Dec 5-7, 2019
-                    
                     </span></li>
                    <li><span>
                    Mohit Sharma, <b>Varun Sharma</b>, and Prateek Kala. “Optimization of process variables to improve
 the mechanical properties of FDM structures.” <b>Journal of Physics: Conference Series, IOP
 Publishing</b> 1240.1 (2019): 012061.</span></li>
+
                    <li><span>Nitish, P. Gokhale, Prateek Kala, and <b>Varun Sharma</b>. “Experimental investigations of TIG
 welding based additive manufacturing process for improved geometrical and mechanical
 properties.” <b>Journal of Physics: Conference Series, IOP Publishing</b> 1240.1 (2019): 012045.</span></li>
+
                    <li><span>
                    Nitin Dixit, <b>Varun Sharma</b>, and Pradeep Kumar. “Simulation analysis of electromagnetic surface
 with textured patterns.” <b>11th International Conference on Precision, Meso, Micro and Nano
@@ -92,10 +93,12 @@ https://doi.org/10.1115/MSEC2016-8565
 <b>ASME 2016 11 th International Manufacturing Science and Engineering Conference
 June 27–July 1, 2016, Blacksburg, Virginia, USA</b>
                     </span></li>
+
                    <li><span><b>Varun Sharma</b>, Pulak M. Pandey, Anish Roy, and Uday S. Dixit. “Study of Surface Integrity in
 Conventional and Ultrasonic Assisted Turning with Self-Lubricating Cutting Inserts.” <b>6 th
 International & 27 th All India Manufacturing Technology, Design and Research Conference
 (AIMTDR-2016)</b>, College of Engineering., Pune, Maharashtra, Dec 16-18, 2016.</span></li>
+
                    <li><span>Uday Shankar Dixit, Vinod Yadav, <b>Varun Sharma</b>, Pulak M. Pandey, Anish Roy, and V.V.
 Silberschmidt. “Estimation of cutting forces in conventional and ultrasonic-vibration assisted
 turning using inverse modelling.” <b>4 th International Conference on Production &amp; Industrial
