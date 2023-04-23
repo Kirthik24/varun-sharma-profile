@@ -12,21 +12,21 @@ const RsMtech = () => {
                 <ul>
                    <li><span>Title - Experimental investigations into thermo-
 physical characterization of hybrid nanofluid
-<br />Student - Neetesh Kumar Sah (2020)</span></li>
-<div className="researchstatus">Awarded</div>
+<br />Student - Neetesh Kumar Sah (2020)</span><div className="researchstatus">Awarded</div></li>
+
                    <li><span>Title - 4D printing of self-fitting scaffolds with
 nature inspired architecture
 <br />Student - Shubham Shankar
-Mohol (2021)</span></li>
-<div className="researchstatus">Awarded</div>
+Mohol (2021)</span><div className="researchstatus">Awarded</div></li>
+
                    <li><span>Title - Experimental investigations into finishing of
 freeform surface by abrasive flow machining
-<br />Student - Muniram Meena (2022)</span></li>
-<div className="researchstatus">Awarded</div>
+<br />Student - Muniram Meena (2022)</span><div className="researchstatus">Awarded</div></li>
+
                    <li><span>Title - Wire arc additive manufacturing of titanium
 alloys
-<br />Student - S A Surendar</span></li>
-<div className="researchstatus">In-process</div>
+<br />Student - S A Surendar</span><div className="researchstatus">In-process</div></li>
+
                 </ul>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/gallery.scss'
 const Gallery = () => {
   return (
-    <div className="container">
+    <div className="gcontainer">
     <div className="gallery">
         <h3>Gallery</h3>
         <div className="row">
