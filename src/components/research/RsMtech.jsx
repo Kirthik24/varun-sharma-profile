@@ -2,6 +2,7 @@ import React from 'react'
 import '../../css/ulist.scss'
 const RsMtech = () => {
   return (
+    <div className="container">
     <div className="rsmtech">
        <div className="para">
             <div className="heading">
@@ -29,6 +30,7 @@ alloys
                 </ul>
             </div>
         </div>
+    </div>
     </div>
   )
 }

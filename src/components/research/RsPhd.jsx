@@ -3,6 +3,7 @@ import '../../css/ulist.scss'
 
 const RsPhd = () => {
   return (
+    <div className="container">
     <div className="rsphd">
         <div className="para">
             <div className="heading">
@@ -81,6 +82,7 @@ Co-supervisor -       -----</span></li>
                 </ul>
             </div>
         </div>
+    </div>
     </div>
   )
 }

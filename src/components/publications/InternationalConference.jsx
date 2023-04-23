@@ -3,6 +3,7 @@ import '../../css/publications/internationalconference.scss'
 
 const InternationalConference = () => {
   return (
+    <div className="container">
     <div className="ic">
             <div className="para">
             <h1>International Conferences</h1>
@@ -131,6 +132,7 @@ Engineering, GNDEC</b>, Ludhiana, Oct 24-26, 2013.
         </div>
         </div>
         </div>
+    </div>
     </div>
   )
 }

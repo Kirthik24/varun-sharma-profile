@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body{
-    margin: 0px;
-    
+    margin: 0px;   
 }
 .app{
     display: flex;
@@ -11,7 +10,7 @@ body{
         display: flex;
         flex-direction: column;
         max-width: 1440px;
-        height: 100vh;
+        //height: 100vh;
         font-family: 'Georgia'; 
         a:link { 
             text-decoration: none; 
@@ -28,6 +27,14 @@ body{
                 } 
             }
         }
+
+        .container{
+            width: 88.88%;
+            margin: auto;
+        }
+
+       
         
     }
 }
+

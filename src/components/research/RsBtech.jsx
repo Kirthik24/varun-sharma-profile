@@ -2,6 +2,7 @@ import React from 'react'
 import '../../css/ulist.scss'
 const RsBtech = () => {
   return (
+    <div className="container">
     <div className="rsbtech">
         <div className="para">
         <div className="heading">
@@ -73,6 +74,7 @@ based micro-stereolithography setup
             </ul>
         </div>
         </div>
+    </div>
     </div>
   )
 }

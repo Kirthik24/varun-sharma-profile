@@ -3,6 +3,7 @@ import '../../css/innernav.scss'
 
 const PbNavigation = () =>{
     return (
+        <div className="container">
         <div className="rsnavbar">
             <div className="rscontainer">
                 <div className={`rsnav-elements`}>
@@ -25,6 +26,7 @@ const PbNavigation = () =>{
                     </ul>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import '../../css/publications/books.scss'
 const Books = () => {
   return (
-    
+    <div className="container">
     <div className="books">
         <h1>Books</h1>
         <div className="bookcard">
@@ -21,6 +21,7 @@ const Books = () => {
             </div>
             
         </div>
+    </div>
     </div>
   )
 }

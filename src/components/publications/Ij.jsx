@@ -4,6 +4,7 @@ import '../../css/ulist.scss'
 
 const Ij = () => {
   return (
+    <div className="container">
     <div className="ij">
         
         <div className="para">
@@ -358,11 +359,7 @@ const Ij = () => {
                 </ul>
             </div>
         </div>
-
-
-
-
-        {/* end */}
+    </div>
     </div>
   )
 }

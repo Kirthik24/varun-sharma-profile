@@ -3,6 +3,7 @@ import '../../css/publications/bookchapters.scss'
 
 const BookChapters = () => {
   return (
+    <div className="container">
     <div className="bookchapters">
         <h1>Book chapters</h1>
         <div className="chapters">
@@ -50,6 +51,7 @@ Springer.
                 </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }

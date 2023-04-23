@@ -2,6 +2,7 @@ import React from 'react'
 import '../../css/ulist.scss'
 const RsProjects = () => {
   return (
+    <div className="container">
     <div className="rsprojects">
           <div className="para">
             <div className="heading">
@@ -99,8 +100,7 @@ const RsProjects = () => {
                 </ul>
             </div>
         </div>
-
-
+    </div>
     </div>
   )
 }

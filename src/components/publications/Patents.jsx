@@ -1,6 +1,7 @@
 import "../../css/publications/patents.scss";
 const Patents = () => {
     return (
+        <div className="container">
         <div className="patents">
             <div className="para">
             <div className="heading">
@@ -51,6 +52,7 @@ Rohit Singh
 <br/>Date: 02/09/2022 (Published)</span></li>
                 </ul>
             </div>
+        </div>
         </div>
         </div>
       );

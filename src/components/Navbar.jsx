@@ -6,7 +6,7 @@ const Navbar = () =>{
     return (
         <div className="navbar">
             <div className="image"></div>
-            <div className="container">
+            <div className="navcontainer">
                 <div className={`nav-elements`}>
                     <ul>
                         <li>
