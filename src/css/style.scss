@@ -5,13 +5,17 @@ body{
 .app{
     display: flex;
     justify-content: center;
+    align-items: center;
     background: white;
     .wrapper{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    align-items: center;
         max-width: 1440px;
         //height: 100vh;
         font-family: 'Georgia'; 
+
         a:link { 
             text-decoration: none; 
         }    
@@ -36,5 +40,6 @@ body{
        
         
     }
+   
 }
 
