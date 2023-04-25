@@ -11,8 +11,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-    align-items: center;
-        max-width: 1440px;
+        align-items: center;
         //height: 100vh;
         font-family: 'Georgia'; 
 
@@ -32,10 +31,15 @@ body{
             }
         }
 
-        .container{
-            width: 88.88%;
-            margin: auto;
+        .content{
+            width: 1440px;
+            .container{
+                width: 88.88%;
+                margin: auto;
+            }
         }
+
+        
 
        
         
