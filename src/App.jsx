@@ -77,7 +77,7 @@ const router = createBrowserRouter([
     element: <ResearchLayout/>,
     children:[
       {
-        path:"/research/phd",
+        path:"/research",
         element: <RsPhd/>
       },
       {
@@ -100,7 +100,7 @@ const router = createBrowserRouter([
     element: <PbLayout/>,
     children:[
       {
-        path:"/pb/books",
+        path:"/pb",
         element: <Books/>
       },
       {

@@ -9,7 +9,7 @@ const ResearchNav = () =>{
                 <div className={`rsnav-elements`}>
                     <ul>
                         <li>
-                            <NavLink to="/research/phd"> <div className='rsselectbox'>Ph.D.Theses</div> </NavLink> 
+                            <NavLink to="/research" end> <div className='rsselectbox'>Ph.D.Theses</div> </NavLink> 
                         </li>
                         <li>
                             <NavLink to="/research/mtech"> <div className='rsselectbox'>M. Tech. <br /> Dissertation</div> </NavLink> 

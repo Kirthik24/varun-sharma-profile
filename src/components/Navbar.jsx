@@ -1,8 +1,9 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink,useLocation } from 'react-router-dom'
 import '../css/navbar.scss'
 
 const Navbar = () =>{
-
+    const { pathname } = useLocation();
+    console.log(pathname)
     return (
         <div className="navbar">
             <div className="image"></div>
@@ -16,10 +17,10 @@ const Navbar = () =>{
                             <NavLink to="/myorders"> <div className='selectbox'>Teams</div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/research/phd"> <div className='selectbox'>Research</div> </NavLink> 
+                            <NavLink to="/research" > <div className='selectbox'>Research</div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/pb/books"> <div className='selectbox'>Publications</div> </NavLink> 
+                            <NavLink to="/pb"> <div className='selectbox'>Publications</div> </NavLink> 
                         </li>
                         <li>
                             <NavLink to="/login"> <div className='selectbox'>Facilities</div> </NavLink> 

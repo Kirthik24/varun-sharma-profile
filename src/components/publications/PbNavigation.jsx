@@ -9,7 +9,7 @@ const PbNavigation = () =>{
                 <div className={`rsnav-elements`}>
                     <ul>
                         <li>
-                            <NavLink to="/pb/books"> <div className='rsselectbox'>Books</div> </NavLink> 
+                            <NavLink to="/pb" end> <div className='rsselectbox'>Books</div> </NavLink> 
                         </li>
                         <li>
                             <NavLink to="/pb/bc"> <div className='rsselectbox'>Book Chapters</div> </NavLink> 
