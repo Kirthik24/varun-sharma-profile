@@ -63,3 +63,51 @@
 .ijbox{
     width: 284px;
 }
+
+@media screen and (max-width: 1200px) {
+    .rsselectbox{
+        width: 135px;
+        height: 72px;
+    }
+    .rsnav-elements {
+        position: relative;
+        ul{
+            display: flex;
+            gap: 25px;
+            justify-content:space-around;
+            list-style-type: none;
+            padding: 0px;
+            a {
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.3rem;
+                line-height: 23px;
+                color: #2D5186;
+                text-align: center;
+            }
+            a.active{
+                font-family: 'Georgia';
+                font-style: normal;
+                
+                font-size: 1.3rem;
+                line-height: 23px;
+                color: #FFFFFF;
+                .rsselectbox{
+                    background: #2D5186;
+                }
+            }
+            
+        }
+    }
+      
+    .icbox{
+        width: 175px;
+        text-align: center;
+    }
+    
+    .ijbox{
+        width: 180px;
+        text-align: center;
+    }
+}
