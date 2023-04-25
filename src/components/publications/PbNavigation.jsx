@@ -9,19 +9,19 @@ const PbNavigation = () =>{
                 <div className={`rsnav-elements`}>
                     <ul>
                         <li>
-                            <NavLink to="/pb" end> <div className='rsselectbox'>Books</div> </NavLink> 
+                            <NavLink to="/pb" end><div className='rsselectbox'> <span>Books</span> </div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/pb/bc"> <div className='rsselectbox'>Book Chapters</div> </NavLink> 
+                            <NavLink to="/pb/bc"> <div className='rsselectbox'> <span>Book Chapters</span></div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/pb/patents"> <div className='rsselectbox'>Patents</div> </NavLink> 
+                            <NavLink to="/pb/patents"> <div className='rsselectbox'> <span>Patents</span></div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/pb/ic"> <div className='rsselectbox icbox'>International Conference</div> </NavLink> 
+                            <NavLink to="/pb/ic"> <div className='rsselectbox icbox'> <span>International Conference</span></div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/pb/ij"> <div className='rsselectbox ijbox'>International Journals</div> </NavLink> 
+                            <NavLink to="/pb/ij"> <div className='rsselectbox ijbox'> <span>International Journals</span></div> </NavLink> 
                         </li>
                     </ul>
                 </div>
