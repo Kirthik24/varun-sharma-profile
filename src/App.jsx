@@ -23,6 +23,8 @@ import BookChapters from "./components/publications/BookChapters";
 import Gallery from "./pages/Gallery";
 import InternationalConference from "./components/publications/InternationalConference";
 import Patents from "./components/publications/Patents";
+import Footer from "./components/Footer";
+
 const Layout = () => {
   return(
     <>
@@ -31,6 +33,7 @@ const Layout = () => {
 
       <Outlet/>
       </div>
+      <Footer/>
     </>
   );
 }
@@ -44,7 +47,7 @@ const ResearchLayout = () => {
       <ResearchNav/>
       <Outlet/>
       </div>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }
@@ -54,11 +57,10 @@ const PbLayout = () => {
     <>
       <Navbar/>
       <div className="content">
-
       <PbNavigation/>
       <Outlet/>
       </div>
-      {/* <Footer/> */}
+      <Footer/> 
     </>
   );
 }
@@ -127,8 +129,6 @@ const router = createBrowserRouter([
         path:"/pb/ij",
         element: <Ij/>
       },
-
-
     ]
   },
  

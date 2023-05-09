@@ -12,16 +12,13 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        //height: 100vh;
         font-family: 'Georgia'; 
-
         a:link { 
             text-decoration: none; 
         }    
         li::marker {
             color: #2D5186;
         }
-
         .para{
             ul{
                 a:link { 
@@ -30,7 +27,6 @@ body{
                 } 
             }
         }
-
         .content{
             width: 90%;
             .container{
@@ -39,6 +35,5 @@ body{
             }
         }  
     }
-   
 }
 
