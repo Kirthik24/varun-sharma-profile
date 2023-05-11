@@ -7,8 +7,19 @@
         height: 100%;
         display: flex;
         margin: auto;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-around;
+        align-items: start;
+        
+
+        .socialconnect{
+            .icons{
+                display: grid;
+                grid-template-columns: 80px 80px 80px;
+                grid-template-rows: 80px 80px 80px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
 
 
         form{
@@ -47,6 +58,30 @@
                 font-size: 12px;
                 line-height: 14px;
             }
+        }
+
+        h3{
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+
+        h2{
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 32px;
+            color: #FFFFFF;
+        }
+
+        img{
+            height: 64px;
+            width: 64px;
+            object-fit: cover;
         }
     }
 }
