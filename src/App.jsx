@@ -30,7 +30,6 @@ const Layout = () => {
     <>
       <Navbar/>
       <div className="content">
-
       <Outlet/>
       </div>
       <Footer/>
@@ -136,8 +135,8 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="app">
-      <div className="wrapper">
+    <div className="app1">
+      <div className="wrapper2">
         <RouterProvider router={router} />
       </div>
     </div>

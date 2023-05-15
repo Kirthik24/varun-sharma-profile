@@ -2,38 +2,72 @@
 body{
     margin: 0px;   
 }
-.app{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Georgia'; 
-        a:link { 
-            text-decoration: none; 
-        }    
-        li::marker {
-            color: #2D5186;
+.app1{
+    a:link { 
+        text-decoration: none; 
+    }    
+    li::marker {
+        color: #2D5186;
+    }
+    .para{
+        ul{
+            a:link { 
+                text-decoration: underline;
+                color: black; 
+            } 
         }
-        .para{
-            ul{
-                a:link { 
-                    text-decoration: underline;
-                    color: black; 
-                } 
-            }
+    }
+    .content{
+        width: 90%;
+        .container{
+            width: 88.88%;
+            margin: auto;
         }
-        .content{
-            width: 90%;
+    }  
+    .content{
+        width: 90%;
+        margin: auto;
             .container{
                 width: 88.88%;
                 margin: auto;
             }
-        }  
     }
 }
+
+
+
+// .app{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background: white;
+//     .wrapper{
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         font-family: 'Georgia'; 
+//         a:link { 
+//             text-decoration: none; 
+//         }    
+//         li::marker {
+//             color: #2D5186;
+//         }
+//         .para{
+//             ul{
+//                 a:link { 
+//                     text-decoration: underline;
+//                     color: black; 
+//                 } 
+//             }
+//         }
+//         .content{
+//             width: 90%;
+//             .container{
+//                 width: 88.88%;
+//                 margin: auto;
+//             }
+//         }  
+//     }
+// }
 
