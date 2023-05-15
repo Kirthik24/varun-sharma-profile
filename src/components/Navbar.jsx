@@ -15,7 +15,7 @@ const Navbar = () =>{
                                 <NavLink to="/"> <div className='selectbox'>Profile</div> </NavLink> 
                             </li>
                             <li>
-                                <NavLink to="/myorders"> <div className='selectbox'>Teams</div> </NavLink> 
+                                <NavLink to="/teams"> <div className='selectbox'>Teams</div> </NavLink> 
                             </li>
                             <li>
                                 <NavLink to="/research" > <div className='selectbox'>Research</div> </NavLink> 

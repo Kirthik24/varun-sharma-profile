@@ -24,6 +24,8 @@ import Gallery from "./pages/Gallery";
 import InternationalConference from "./components/publications/InternationalConference";
 import Patents from "./components/publications/Patents";
 import Footer from "./components/Footer";
+import PeopleNav from "./components/people/PeopleNav";
+import PeoplePostDocFellow from "./components/people/PeoplePostDocFellow";
 
 const Layout = () => {
   return(
@@ -63,6 +65,20 @@ const PbLayout = () => {
     </>
   );
 }
+
+const PeopleLayout = () => {
+  return(
+    <>
+      <Navbar/>
+      <div className="content">
+      <PeopleNav/>
+      <Outlet/>
+      </div>
+      <Footer/> 
+    </>
+  );
+}
+
 
 
 
@@ -127,6 +143,16 @@ const router = createBrowserRouter([
       {
         path:"/pb/ij",
         element: <Ij/>
+      },
+    ]
+  },
+  {
+    path: "/teams",
+    element: <PeopleLayout/>,
+    children:[
+      {
+        path:"/teams",
+        element: <PeoplePostDocFellow/>
       },
     ]
   },
