@@ -26,6 +26,7 @@ import Patents from "./components/publications/Patents";
 import Footer from "./components/Footer";
 import PeopleNav from "./components/people/PeopleNav";
 import PeoplePostDocFellow from "./components/people/PeoplePostDocFellow";
+import PeoplePhd from "./components/people/PeoplePhd";
 
 const Layout = () => {
   return(
@@ -153,6 +154,10 @@ const router = createBrowserRouter([
       {
         path:"/teams",
         element: <PeoplePostDocFellow/>
+      },
+      {
+        path:"/teams/phd",
+        element: <PeoplePhd/>
       },
     ]
   },

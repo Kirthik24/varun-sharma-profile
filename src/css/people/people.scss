@@ -8,9 +8,17 @@ h1{
 }
 
 .person{
-    align-self: center;
+    margin-bottom: 20px;
     display: flex;
     gap: 5rem;
+    align-items: center;
+
+    a{
+        color: #000;
+        span{
+            text-decoration: underline;
+        }
+    }
 
     h2{
         margin: 0;

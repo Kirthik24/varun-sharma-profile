@@ -20,8 +20,7 @@ const PeoplePostDocFellow = () => {
                    <br />
                    <br />
                    <br />
-                   <br />
-                   <p>Email - <a href="mailto: kunalarora1108@gmail.com">kunalarora1108@gmail.com</a></p> 
+                   <p>Email - <a href="mailto: kunalarora1108@gmail.com"><span>kunalarora1108@gmail.com</span></a></p> 
                    <p>Contact No. - +91-8847084375</p>
             </div>
             </div>
