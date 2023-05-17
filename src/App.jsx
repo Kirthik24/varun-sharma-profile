@@ -28,6 +28,8 @@ import PeopleNav from "./components/people/PeopleNav";
 import PeoplePostDocFellow from "./components/people/PeoplePostDocFellow";
 import PeoplePhd from "./components/people/PeoplePhd";
 import Facilities from "./pages/Facilities";
+import PeopleMtech from "./components/people/PeopleMtech";
+import PeopleAlumini from "./components/people/PeopleAlumini";
 const Layout = () => {
   return(
     <>
@@ -162,6 +164,14 @@ const router = createBrowserRouter([
       {
         path:"/teams/phd",
         element: <PeoplePhd/>
+      },
+      {
+        path:"/teams/mtech",
+        element: <PeopleMtech/>
+      },
+      {
+        path:"/teams/alumini",
+        element: <PeopleAlumini/>
       },
     ]
   },
