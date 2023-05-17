@@ -30,6 +30,8 @@ const Facilities = () => {
 
 
   return (
+    <div className="container f-container">
+      <h1>Facilities</h1>
     <div className="facilities">
       {/* row1 */}
       <div className="f-vertical">
@@ -110,6 +112,7 @@ const Facilities = () => {
 
 
 
+    </div>
     </div>
   )
 }

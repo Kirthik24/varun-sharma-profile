@@ -1,4 +1,23 @@
+.f-container{
+    h1{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 55px;
+        color: #000000;
+    
+    }
+}
 
+.facilities{
+    display: grid;
+    max-width: 1326px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:40px ;
+    grid-column-gap: 48px ;
+    align-items: center;
+}
 .f-vertical{
     width: 415px;
     height: 578px;
@@ -28,13 +47,16 @@
 
 
 .f-horizontal{
-    width: 1326px;
+    grid-column: span 3;
+    width: 1348px;
     height: 277px;
     border: 2px solid #2D5186;
     border-radius: 8px;
     display: flex;
     align-items: center;
-    //justify-content: center;
+    // align-self: center;
+    // justify-self: center;
+    
 
     h2{
         margin-left: 20px;
