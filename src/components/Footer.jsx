@@ -14,11 +14,11 @@ const Footer = () => {
         <div className="socialconnect">
           <h2>Social Connect</h2>
           <div className="icons">
-            <img className= "linkedin-img"src={linkedin} alt="" />
-            <img src={email} alt="" />
-            <img src={twitter} alt="" />
-            <img src={instagram} alt="" />
-            <img src={youtube} alt="" />
+            <img className= "linkedin-img icon-item"src={linkedin} alt="" />
+            <img className= "icon-item" src={email} alt="" />
+            <img className= "icon-item"src={twitter} alt="" />
+            <img className= "icon-item"src={instagram} alt="" />
+            <img className= "icon-item"src={youtube} alt="" />
           </div>
         </div>
         <form action="">
