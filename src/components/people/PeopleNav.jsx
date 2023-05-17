@@ -19,7 +19,7 @@ const PeopleNav = () => {
                         <NavLink to="/teams/mtech"> <div className='rsselectbox'> <span>M.Tech.</span></div> </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/teams/alumini"> <div className='rsselectbox icbox'> <span>Alumini</span></div> </NavLink> 
+                        <NavLink to="/teams/alumini"> <div className='rsselectbox'> <span>Alumini</span></div> </NavLink> 
                     </li>
                 </ul>
             </div>

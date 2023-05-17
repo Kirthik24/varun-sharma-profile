@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="socialconnect">
           <h2>Social Connect</h2>
           <div className="icons">
-            <img src={linkedin} alt="" />
+            <img className= "linkedin-img"src={linkedin} alt="" />
             <img src={email} alt="" />
             <img src={twitter} alt="" />
             <img src={instagram} alt="" />
