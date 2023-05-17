@@ -27,7 +27,7 @@ import Footer from "./components/Footer";
 import PeopleNav from "./components/people/PeopleNav";
 import PeoplePostDocFellow from "./components/people/PeoplePostDocFellow";
 import PeoplePhd from "./components/people/PeoplePhd";
-
+import Facilities from "./pages/Facilities";
 const Layout = () => {
   return(
     <>
@@ -96,6 +96,10 @@ const router = createBrowserRouter([
         path:"/gallery",
         element:<Gallery/>
       },
+      {
+        path: "/facilities",
+        element: <Facilities/>
+      }
     ]
   },
   {

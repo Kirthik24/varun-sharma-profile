@@ -1,0 +1,23 @@
+.image-carousel{
+    display: flex;
+    flex-direction: column;
+}
+
+.dot-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+  
+.dot-indicators span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+}
+  
+.dot-indicators span.active {
+    background-color: black;
+}
