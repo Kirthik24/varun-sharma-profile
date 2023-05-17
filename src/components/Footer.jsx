@@ -29,9 +29,10 @@ const Footer = () => {
             <label htmlFor="email">Email(Required)</label> <br />
             <input type="email" name='email' required={true}/>
             <br />
-            <label htmlFor="yourcv">Your CV(Required)</label> <br />
-            <input type="file" name='yourcv' required={true}/>
-            <br />
+            <label htmlFor="yourcv">Your CV(Required)</label> 
+           <div className="inputdiv">
+            <input type="file" id="choosefilebutton" name='yourcv' required={true}/>
+           </div>
             <label htmlFor="message">Message(Optional)</label> <br />
             <input type="text" name='message'/>
             <br />

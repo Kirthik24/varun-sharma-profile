@@ -35,7 +35,6 @@
             font-size: 16px;
             line-height: 18px;
             color: #FFFFFF;
-
             input{
                 width: 386px;
                 height: 27px;
@@ -46,11 +45,32 @@
                 border: 1px solid #FFFFFF;
                 border-radius: 4px;
                 padding: 0px;
+                color: #FFFFFF;
+                text-align: center;
             }
 
-            input#file-upload-button{
-                margin: 1px;
+            .inputdiv{
+                width: 386px;
+                height: 27px;
+                border-radius: 4px;
+                margin-top: 5px;
+                background: #2D5186;
+                border: 1px solid #FFFFFF;
+                border-radius: 4px;
+                padding: 0px;
+                color: #FFFFFF;
+                display: flex;
+                align-items: center;
+                margin-bottom: 8px;
+                
             }
+           #choosefilebutton{
+            width: fit-content;
+            height: fit-content;
+            border: 0px;
+            margin: 0;
+            margin-left: 5px;
+           }
 
             button{
                 position: absolute;
@@ -63,6 +83,7 @@
                 font-weight: 700;
                 font-size: 12px;
                 line-height: 14px;
+                
             }
         }
 
