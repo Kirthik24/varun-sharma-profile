@@ -6,25 +6,25 @@ const Gallery = () => {
     return (
         <div className="gcontainer">
          <div className="gallery">
-          <div className='h-strech'><img src={g1} alt="" /></div>
+          <div><img src={g1} alt="" /></div>
           <div className='v-strech'><img src={g2} alt="" /></div>
-          <div className='h-strech'><img src={g3} alt="" /></div>
+          <div><img src={g3} alt="" /></div>
           <div className='v-strech'><img src={g4} alt="" /></div>
-          <div className='h-strech'><img src={g5} alt="" /></div>
-          <div className='h-strech'><img src={g6} alt="" /></div>
-          <div className='h-strech'><img src={g7} alt="" /></div>
+          <div ><img src={g5} alt="" /></div>
+          <div ><img src={g6} alt="" /></div>
+          <div ><img src={g7} alt="" /></div>
           <div className='h-strech'><img src={g8} alt="" /></div>
-          <div className='h-strech'><img src={g9} alt="" /></div>
-          <div className='h-strech'><img src={g10} alt="" /></div>
-          <div className='h-strech'><img src={g11} alt="" /></div>
-          <div className='h-strech'><img src={g12} alt="" /></div>
-          <div className='h-strech'><img src={g13} alt="" /></div>
-          <div className='h-strech'><img src={g14} alt="" /></div>
-          <div className='h-strech'><img src={g15} alt="" /></div>
-          <div className='h-strech'><img src={g16} alt="" /></div>
-          <div className='h-strech'><img src={g17} alt="" /></div>
-          <div className='h-strech'><img src={g18} alt="" /></div>
-          <div className='h-strech'><img src={g19} alt="" /></div>
+          <div ><img src={g9} alt="" /></div>
+          <div ><img src={g10} alt="" /></div>
+          <div ><img src={g11} alt="" /></div>
+          <div ><img src={g12} alt="" /></div>
+          <div ><img src={g13} alt="" /></div>
+          <div  className='h-strech'><img src={g14} alt="" /></div>
+          <div ><img src={g15} alt="" /></div>
+          <div ><img src={g16} alt="" /></div>
+          <div ><img src={g17} alt="" /></div>
+          <div ><img src={g18} alt="" /></div>
+          <div ><img src={g19} alt="" /></div>
          
          </div>
         </div>
