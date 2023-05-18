@@ -30,7 +30,7 @@ const Facilities = () => {
 
 
   return (
-    <div className="container f-container">
+    <div className="f-container">
       <h1>Facilities</h1>
     <div className="facilities">
       {/* row1 */}
@@ -61,6 +61,16 @@ const Facilities = () => {
 
       <div className="f-vertical">
         <img src={f6} alt="" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <h2>DAQ System</h2>
       </div>
 
@@ -77,6 +87,14 @@ const Facilities = () => {
 
       <div className="f-vertical">
         <img src={f9} alt="" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <h2>Tablet dissolution/ disintegration and friability test apparatus</h2>
       </div>
 
@@ -95,11 +113,21 @@ const Facilities = () => {
 
       <div className="f-vertical">
         <img src={f12} alt="" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <h2>Refrigerated centrifuge</h2>
       </div>
 
       <div className="f-vertical">
         <img src={f13} alt="" />
+        <br />
+        <br />
+        <br />
         <h2>Ultrasonic homogenizer</h2>
       </div>
 

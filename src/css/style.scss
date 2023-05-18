@@ -19,16 +19,14 @@ body{
     }
     .content{
         width: 90%;
-        .container{
-            width: 88.88%;
-            margin: auto;
-        }
-    }  
-    .content{
-        width: 90%;
         margin: auto;
             .container{
                 width: 88.88%;
+                margin: auto;
+            }
+
+            .fcontainer{
+                width: 98%;
                 margin: auto;
             }
     }
