@@ -36,7 +36,9 @@ const Footer = () => {
             <label htmlFor="message">Message(Optional)</label> <br />
             <input type="text" name='message'/>
             <br />
+            <div className="submit-button">
             <button>Submit</button>
+            </div>
         </form>
         </div>
     </div>
