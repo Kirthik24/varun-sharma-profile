@@ -12,8 +12,8 @@ const Gallery = () => {
           <div className='v-strech'><img src={g4} alt="" /></div>
           <div ><img src={g5} alt="" /></div>
           <div ><img src={g6} alt="" /></div>
-          <div ><img src={g7} alt="" /></div>
-          <div className='h-strech'><img src={g8} alt="" /></div>
+          <div><img src={g7} alt="" /></div>
+          <div className='v-strech'><img src={g8} alt="" /></div>
           <div ><img src={g9} alt="" /></div>
           <div ><img src={g10} alt="" /></div>
           <div ><img src={g11} alt="" /></div>
