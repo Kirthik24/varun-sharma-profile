@@ -1,9 +1,17 @@
 import { NavLink,useLocation } from 'react-router-dom'
 import '../css/navbar.scss'
 
+
 const Navbar = () =>{
     const { pathname } = useLocation();
     console.log(pathname)
+    
+    const goToTop = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight,
+            behavior: "smooth",
+        });
+    };
     return (
         <div className="navbar">
             <div className="image"></div>
@@ -30,7 +38,8 @@ const Navbar = () =>{
                                 <NavLink to="/gallery"> <div className='selectbox'>Gallery</div> </NavLink> 
                             </li>
                             <li>
-                                <NavLink to="/login"> <div className='selectbox'>Contact</div> </NavLink> 
+                                <div onClick={goToTop} className='selectbox contact-button'>Contact</div>
+                                
                             </li>
                         </ul>
                     </div>
