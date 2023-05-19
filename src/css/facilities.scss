@@ -1,5 +1,4 @@
 .f-container{
-    width: fit-content;
     h1{
         font-family: 'Georgia';
         font-style: normal;
@@ -14,8 +13,8 @@
 .facilities{
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(3,390px);
-    //grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    //grid-template-columns: repeat(3,32.2%);
+    grid-template-columns: repeat(3, minmax(300px, 500px));
     grid-row-gap:40px ;
     grid-column-gap: 15px ;
     align-items: center;
@@ -77,6 +76,7 @@
 
     img{
         margin-left: 24px;
+        max-width: 70%;
     }
 
 }
