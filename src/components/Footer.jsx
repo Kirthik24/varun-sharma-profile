@@ -10,7 +10,14 @@ const Footer = () => {
   return (
     <div className="footer">
         <div className="footercontent">
+          <div className="labaddress">
           <h2>Lab Address</h2>
+          <h4>Additive and Substractive Manufacturing</h4>
+          <h4>Lab, West Block</h4>
+          <h4>Mechanical & Industrial Department</h4>
+          <h4>IIT Roorkee, 247667</h4>
+          </div>
+          
         <div className="socialconnect">
           <h2>Social Connect</h2>
           <div className="icons">

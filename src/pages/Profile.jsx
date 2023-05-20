@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/profile.scss'
 import '../css/ulist.scss'
+import shorttermcourse from "../assets/shorttermcourses.png"
 const Profile = () => {
   return (
     <div className="container">
@@ -112,9 +113,7 @@ const Profile = () => {
             
             <div className="para">
                 <div className="heading">
-                <svg width="68" height="68" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M-4.79999 -4.80005H76.8V76.7999H-4.79999V-4.80005Z" fill="#2D5186"/>
-    </svg>
+                <img src={shorttermcourse}  className ="shortterm"alt="" />
 
 
                 <h2>Short Term Courses/Seminar Organized</h2>
