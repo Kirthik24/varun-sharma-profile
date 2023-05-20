@@ -17,11 +17,15 @@ import g16 from "./g16.png";
 import g17 from "./g17.png";
 import g18 from "./g18.png";
 import g19 from "./g19.png";
+import g20 from "./g20.png";
+import g21 from "./g21.png";
+import g22 from "./g22.png";
+import g23 from "./g23.png";
 
 
 
 export {
     g1,
     g2,
-    g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,g13,g14,g15,g16,g17,g18, g19
+    g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,g13,g14,g15,g16,g17,g18, g19, g20, g21, g22, g23
 };
