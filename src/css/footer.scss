@@ -132,3 +132,16 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+
+    .footer{
+        height: fit-content;
+        
+        .footercontent{
+            width: fit-content;
+            flex-direction: column;
+            
+        }
+    }
+}
