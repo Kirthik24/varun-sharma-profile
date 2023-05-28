@@ -50,3 +50,31 @@
 .profileul{
     margin-left: 82px;
 }
+
+
+
+
+@media screen and (max-width: 1120px){
+
+    .profile{
+            .profilecard{
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+            .profileinfo{
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .profilename{
+                    font-size: 1.75rem;
+                }   
+    
+                .otherinfo{
+                    font-size: 1.4rem;
+                }
+            }
+        }   
+    }
+
+}
