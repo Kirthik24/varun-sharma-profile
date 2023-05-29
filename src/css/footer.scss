@@ -136,12 +136,33 @@
 @media screen and (max-width: 768px){
 
     .footer{
-        height: fit-content;
-        
+        height: fit-content;    
         .footercontent{
             width: fit-content;
-            flex-direction: column;
-            
+            flex-direction: column; 
+            form{
+                font-size: 0.8rem;
+                input{
+                    width: 360px;
+                }
+    
+                .inputdiv{
+                    width: 360px;
+                }
+            }
+    
+            h3{
+                font-size: 1.2rem;
+            }
+    
+            h4{
+                font-size: 1rem;
+            }
+    
+            h2{
+                font-size: 1.5rem;
+            }
         }
     }
+    
 }
