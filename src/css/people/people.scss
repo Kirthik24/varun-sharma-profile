@@ -44,3 +44,40 @@ h1{
 img{
     align-self: center;
 }
+
+@media screen and (max-width: 800px){
+    h1{      
+        font-size: 1.4rem;
+    }
+
+    .person{
+        margin-bottom: 27px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+        h2{
+            font-size: 1.2rem;
+        }
+    
+        p{
+            margin: 0;
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 23px;
+            color: #000000;
+        }
+
+        .details{
+            align-self: flex-start;
+        }
+    }
+
+    img{
+        align-self: flex-start;
+    }
+    
+
+}
