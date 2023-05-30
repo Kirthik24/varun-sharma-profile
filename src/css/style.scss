@@ -33,40 +33,21 @@ body{
     }
 }
 
-
-
-// .app{
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     background: white;
-//     .wrapper{
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//         font-family: 'Georgia'; 
-//         a:link { 
-//             text-decoration: none; 
-//         }    
-//         li::marker {
-//             color: #2D5186;
-//         }
-//         .para{
-//             ul{
-//                 a:link { 
-//                     text-decoration: underline;
-//                     color: black; 
-//                 } 
-//             }
-//         }
-//         .content{
-//             width: 90%;
-//             .container{
-//                 width: 88.88%;
-//                 margin: auto;
-//             }
-//         }  
-//     }
-// }
-
+@media screen and (max-width: 1120px){
+    .app1{
+        .content{
+            width: 95%;
+            margin: auto;
+                .container{
+                    width: 100%;
+                    margin: auto;
+                }
+    
+                .fcontainer{
+                    width: 98%;
+                    margin: auto;
+                }
+        }
+    }
+    
+}

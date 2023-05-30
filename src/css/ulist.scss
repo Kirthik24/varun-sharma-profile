@@ -70,7 +70,9 @@
         padding-right: 10px;
     }
 
-    
+    .profileul{
+        margin-left: 82px;
+    }
 }
 
 .researchstatus{
@@ -88,9 +90,6 @@
 }
 
 @media screen and (max-width: 1120px){
-    .lidiv{
-        max-width: 98vw;
-    }
     .para{
         .heading{
             display: flex;
@@ -98,8 +97,8 @@
             margin-top: 20px;
             svg{
                 margin-right: 10px;
-                max-width: 40px;
-                max-height: 40px;
+                max-width: 24px;
+                max-height: 24px;
             }
             .shortterm{
                 width: 40px;
@@ -108,9 +107,12 @@
             }
             h2{
                 font-size: 1.75rem;
+                font-size: 16px;
+
             }
             h3{
                 font-size: 1.75rem;
+                font-size: 16px;
             }
         }
     
@@ -124,16 +126,23 @@
                 font-family: 'Georgia';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 1.2rem; 
-                line-height: 27px;
+                // font-size: 1.2rem; 
+                // line-height: 27px;
+
+                // font-size: 10px;
+                // line-height: 11px;
+                // color: #000000;
+                font-size: calc(0.8vw + 0.5rem);
+
                 margin: 0px;
                 margin-bottom: 12px;
                 list-style-type:none;
                 position: relative;
                 overflow-wrap: anywhere;
+
                 span{
                     position: relative;
-                    left: 40px;
+                    left: 18px;
                     overflow-wrap: anywhere;
                 }
 
@@ -153,9 +162,13 @@
     
         ul li:before {
             content: "•";
-            font-size: 2rem;
+            font-size: 16px;
             color: #2D5186;
-            padding-right: 10px;
+            padding-right: 0px;
+        }
+
+        .profileul{
+            margin-left: 32px;
         }
     
         
