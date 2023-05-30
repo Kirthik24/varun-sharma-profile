@@ -41,3 +41,29 @@
         }
     }
 }
+
+
+@media screen and (max-width: 1120px){
+    .bookchapters{
+        h1{
+            font-size: 1.4rem;
+        }
+    
+        .chapters{
+            .singlechapter{
+                display: flex;
+                flex-direction: column;
+
+
+                .coverimg{
+                   margin-bottom: 25px;
+                }
+    
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+}

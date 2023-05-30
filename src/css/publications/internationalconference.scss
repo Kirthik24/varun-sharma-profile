@@ -1,0 +1,92 @@
+@media screen and (max-width: 1120px){
+    .para{
+       
+        .heading{
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            svg{
+                margin-right: 10px;
+                max-width: 40px;
+                max-height: 40px;
+            }
+            .shortterm{
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+            h2{
+                font-size: 1.75rem;
+            }
+            h3{
+                font-size: 1.75rem;
+            }
+        }
+    
+        
+        ul{
+            margin: 0px;
+            padding: 0px;
+            li{
+                display: flex;
+                align-items: center;
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.2rem; 
+                line-height: 27px;
+                margin: 0px;
+                margin-bottom: 12px;
+                list-style-type:none;
+                position: relative;
+                span{
+                    position: relative;
+                    left: 40px; 
+                    max-width: 98%;  
+                    //overflow: hidden;  
+                    word-wrap: break-word;           
+                }
+                b{
+                    word-wrap: break-word; 
+                }
+                
+                a{
+                    word-wrap: break-word; 
+                }
+                a:link { 
+                    text-decoration: underline; 
+                    color: #000000;
+                    word-wrap: break-word; 
+                }  
+        
+            }
+    
+            
+        }
+    
+        ul li:before {
+            content: "•";
+            font-size: 2rem;
+            color: #2D5186;
+            padding-right: 10px;
+        }
+    
+        
+    }
+    
+    .researchstatus{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 0.9rem; 
+        line-height: 27px;
+        color: #000000;
+        position: absolute;
+        margin: 0;
+        right: 0;
+        bottom: -15px;
+       
+    }
+    
+}
+

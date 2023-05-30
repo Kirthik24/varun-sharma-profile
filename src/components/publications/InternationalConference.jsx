@@ -57,10 +57,9 @@ Ambedkar National Institute of Technology, Jalandhar, Punjab, Oct 09-11, 2020.
             <div className="points">
                 <ul>
                    <li><span>
-                   Lokesh Kumar Patel, Aswani Kumar Singh, <b>Varun Sharma</b>, and Prateek Kala. “Analysis of a
-hybrid ultrasonic horn profile using finite element analysis.” <b>Materials Today: Proceedings</b> 41
+                   Lokesh Kumar Patel, Aswani Kumar Singh, <b>Varun Sharma</b>, and Prateek Kala. “Analysis of a hybrid ultrasonic horn profile using finite element analysis.” <b>Materials Today: Proceedings</b> 41
 (2021): 772-779.
-<br /><a href=" https://doi.org/10.1016/j.matpr.2020.08.465"> https://doi.org/10.1016/j.matpr.2020.08.465 </a> <br />
+<br /><a href=" https://doi.org/10.1016/j.matpr.2020.08.465">https://doi.org/10.1016/j.matpr.2020.08.465</a> <br />
 <b>9 th International Conference on Advancements and Futuristic Trends in Mechanical and
 Materials Engineering, IIT Ropar</b>, Dec 5-7, 2019
                     </span></li>
