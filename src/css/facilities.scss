@@ -46,6 +46,7 @@
     }
 
     img{
+       
         margin-top: 24px; 
         max-width: 95%; 
        
@@ -120,7 +121,7 @@
         img{
             margin-top: 24px; 
             max-width: 95%; 
-           
+           align-self: center;
         }
     }
 
@@ -152,6 +153,7 @@
         img{
             margin-left: 24px;
             max-width: 70%;
+            align-self: center;
         }
     
     }
