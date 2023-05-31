@@ -39,11 +39,12 @@ h1{
         line-height: 23px;
         color: #000000;
     }
+    
+    img{
+        align-self: center;
+    }
 }
 
-img{
-    align-self: center;
-}
 
 @media screen and (max-width: 800px){
     h1{      
@@ -57,7 +58,7 @@ img{
         gap: 2rem;
         
         h2{
-            font-size: 1.2rem;
+            font-size: calc(1vw + 0.5rem);
         }
     
         p{
@@ -65,7 +66,7 @@ img{
             font-family: 'Georgia';
             font-style: normal;
             font-weight: 400;
-            font-size: 1rem;
+            font-size: calc(1vw + 0.38rem);
             line-height: 23px;
             color: #000000;
         }
@@ -73,11 +74,15 @@ img{
         .details{
             align-self: flex-start;
         }
+
+        img{
+            align-self: flex-start;
+            max-width: 50%;
+            height: auto;
+        }
     }
 
-    img{
-        align-self: flex-start;
-    }
+   
     
 
 }
