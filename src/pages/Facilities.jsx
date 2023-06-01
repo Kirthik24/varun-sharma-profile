@@ -31,7 +31,7 @@ const Facilities = () => {
 
   return (
     <div className="f-container">
-      <h1>Facilities</h1>
+      <h1 className='removehead'>Facilities</h1>
     <div className="facilities">
       {/* row1 */}
       <div className="f-vertical">

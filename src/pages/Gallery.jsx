@@ -5,7 +5,7 @@ import { g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,g13,g14,g15,g16,g17,g18, g19,g20
 const Gallery = () => {
     return (
         <div className="gcontainer">
-            <h3>Gallery</h3>
+            <h3 className='removehead'>Gallery</h3>
          <div className="gallery">
           <div className='photo'><img src={g1} alt="" /></div>
           <div className='v-strech photo'><img src={g2} alt="" /></div>

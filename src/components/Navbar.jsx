@@ -1,11 +1,12 @@
 import { NavLink,useLocation } from 'react-router-dom'
 import '../css/navbar.scss'
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 
 const Navbar = () =>{
     const { pathname } = useLocation();
-    const [currentPage , setCurrentPage] = useState("Profile");
+    const [currentPage , setCurrentPage] = useState("");
+
     console.log(pathname)
     const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -15,12 +16,39 @@ const Navbar = () =>{
             behavior: "smooth",
         });
     };
+
+    const getRootPath = (path) => {
+        const parts = path.split('/');
+        const thepath = parts.length > 1 ? `/${parts[1]}` : path;
+
+        switch(thepath){
+            case "/":
+                return "Profile";
+            case "/teams":
+                return "Teams";
+            case "/research":
+                return "Research";
+            case "/pb":
+                return "Publications";
+            case "/facilities":
+                return "Facilities";
+            case "/gallery":
+                return "Gallery";
+        }
+      };
+    
+      const rootPath = getRootPath(pathname);
+    
+    
+
+
+    
     
     return (
         <div className="navbar">
             <div className="image"></div>
             <div className="mobile-box">
-                <h6>{currentPage}</h6>
+                <h6>{rootPath}</h6>
                 <button className="toggle-button" onClick={()=>{setToggleMenu(!toggleMenu)}}>
                     {toggleMenu ? <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="3.66211" y="0.33252" width="29" height="4" rx="2" transform="rotate(45 3.66211 0.33252)" fill="#2D5186"/>
@@ -52,7 +80,7 @@ const Navbar = () =>{
                             <NavLink to="/facilities"> <div className='selectbox'>Facilities</div> </NavLink> 
                         </li>
                         <li>
-                            <NavLink to="/gallery"> <div className='selectbox'>Gallery</div> </NavLink> 
+                            <NavLink to="/gallery"> <div className='selectbox' >Gallery</div> </NavLink> 
                         </li>
                         <li>
                             <div onClick={goToTop} className='selectbox contact-button'>Contact</div>

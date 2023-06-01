@@ -5,7 +5,7 @@ import "../../css/people/people.scss"
 const PeopleAlumini = () => {
     return (
         <div className="container">
-            <h1>M. Tech.</h1>
+            <h1>Alumni</h1>
             <div className="peoplelist">
             <div className="person">
                 <img src={mtech1} alt="" />
