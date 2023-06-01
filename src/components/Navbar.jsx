@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 const Navbar = () =>{
     const { pathname } = useLocation();
-    const [currentPage , setCurrentPage] = useState("Profile")
+    const [currentPage , setCurrentPage] = useState("Profile");
     console.log(pathname)
     const [toggleMenu, setToggleMenu] = useState(false);
 

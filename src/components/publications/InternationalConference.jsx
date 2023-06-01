@@ -1,10 +1,12 @@
 import React from 'react'
 import '../../css/publications/internationalconference.scss'
+import '../../css/ulist.scss'
 
 const InternationalConference = () => {
   return (
     <div className="container">
     <div className="ic">
+
             <div className="para">
             <h1>International Conferences</h1>
             <div className="heading">
