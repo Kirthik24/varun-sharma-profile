@@ -5,13 +5,16 @@ import shorttermcourse from "../assets/shorttermcourses.png"
 const Profile = () => {
   return (
     <div className="container">
+        
         <div className="profile">
             <div className="profilecard">
-
                 <div className="profileimg"></div>
 
                 <div className="profileinfo">
-                    <p className="profilename">Varun Sharma</p>
+                    <div className="name-cv"><p className="profilename">Varun Sharma</p>  <div className="downloadresume">
+            <a href="/resume/Varun-Sharma-Resume.pdf" target='_blank'>Download CV</a>
+        </div></div>
+                    
                     <p className="otherinfo">Assistant Professor <br />
                         Department of Mechanical and Industrial Engineering <br />
                         Indian Institute of Technology, Roorkee

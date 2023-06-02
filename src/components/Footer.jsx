@@ -10,6 +10,9 @@ const Footer = () => {
   return (
     <div className="footer">
         <div className="footercontent">
+        <div className="footer-cv"><div className="downloadresume">
+            <a href="/resume/Varun-Sharma-Resume.pdf" target='_blank'>Download CV</a>
+        </div></div>
           <div className="labaddress">
           <h2>Lab Address</h2>
           <h4>Additive and Substractive Manufacturing</h4>

@@ -1,13 +1,42 @@
+.downloadresume{
+    width: 218px;
+    height: 45px;
+    background: #2D5186;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #FFFFFF;
+    }
+}
+
+
 .profile{
     display: flex;
     align-items:flex-start;
     flex-direction: column;
+
+    
     .profilecard{
         display: flex;
         justify-content: left;
         align-items: left;
         gap: 100px;
         width: 100%;
+
+        .name-cv{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
         
         .profileimg{
             width: 318px;
@@ -55,6 +84,11 @@
     .profile{
             .profilecard{
             gap: 10px;
+
+            .name-cv{
+               display: none;
+            }
+            
             .profileimg{
                 width: 103px;
                 height: 127px;
