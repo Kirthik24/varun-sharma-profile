@@ -1,3 +1,9 @@
+.incontainer{
+    width: 95%;
+    margin: auto;
+  
+}
+
 .rsnavbar {
     height: 56px;
     width: 100%;
@@ -24,15 +30,20 @@
     justify-content:left;
     align-items: center;
     
+    
 }
 .rsnav-elements {
     position: relative;
+    overflow-x: auto;
+    
     ul{
         display: flex;
+
         gap: 25px;
         justify-content:space-around;
         list-style-type: none;
         padding: 0px;
+      
         a {
             font-family: 'Georgia';
             font-style: normal;

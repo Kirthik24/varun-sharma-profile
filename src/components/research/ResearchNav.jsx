@@ -3,7 +3,7 @@ import '../../css/research/researchnav.scss'
 
 const ResearchNav = () =>{
     return (
-        <div className="container">
+        <div className="incontainer">
         <div className="rsnavbar">
             <div className="rscontainer">
                 <div className={`rsnav-elements`}>
