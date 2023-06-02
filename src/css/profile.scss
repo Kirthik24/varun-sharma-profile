@@ -86,7 +86,12 @@
             gap: 10px;
 
             .name-cv{
-               display: none;
+                height: fit-content;
+                .downloadresume{
+                    height: 0px;
+                    display: none;
+                }
+              
             }
             
             .profileimg{
@@ -98,6 +103,7 @@
             .profileinfo{
                 height: 127px;
                 .profilename{
+                    height: auto;
                     font-family: 'Georgia';
                     font-style: normal;
                     font-weight: 400;
