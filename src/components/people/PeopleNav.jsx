@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const PeopleNav = () => {
   return (
-    <div className="incontainer">
+    <div className="container">
     <div className="rsnavbar">
         <div className="rscontainer">
             <div className={`rsnav-elements`}>

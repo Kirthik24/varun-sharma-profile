@@ -48,9 +48,7 @@ const ResearchLayout = () => {
       <Navbar/>
       <div className="content">
       <Research/>
-      </div>
       <ResearchNav/>
-      <div className="content">
       <Outlet/>
       </div>
       
@@ -63,8 +61,8 @@ const PbLayout = () => {
   return(
     <>
       <Navbar/>
-      <PbNavigation/>
       <div className="content">
+      <PbNavigation/>
       <Outlet/>
       </div>
       <Footer/> 
@@ -76,8 +74,8 @@ const PeopleLayout = () => {
   return(
     <>
       <Navbar/>
-      <PeopleNav/>
       <div className="content">
+      <PeopleNav/>
       <Outlet/>
       </div>
       <Footer/> 

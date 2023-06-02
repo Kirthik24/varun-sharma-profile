@@ -12,6 +12,7 @@
     justify-content: center;
     color: #2D5186;
     margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .rsselectbox{
@@ -34,15 +35,15 @@
 }
 .rsnav-elements {
     position: relative;
-    overflow-x: auto;
     
     ul{
         display: flex;
-
         gap: 25px;
-        justify-content:space-around;
+        justify-content:flex-start;
         list-style-type: none;
         padding: 0px;
+        flex-wrap: wrap;
+
       
         a {
             font-family: 'Georgia';
@@ -84,6 +85,7 @@
         justify-content: center;
         color: #2D5186;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     .rsselectbox{
@@ -109,7 +111,7 @@
         ul{
             display: flex;
             gap: 8px;
-            justify-content:space-around;
+            justify-content:flex-start;
             list-style-type: none;
             padding: 0px;
             a {
