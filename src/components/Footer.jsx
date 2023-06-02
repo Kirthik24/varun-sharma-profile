@@ -10,9 +10,6 @@ const Footer = () => {
   return (
     <div className="footer">
         <div className="footercontent">
-        <div className="footer-cv"><div className="downloadresume">
-            <a href="/resume/Varun-Sharma-Resume.pdf" target='_blank'>Download CV</a>
-        </div></div>
           <div className="labaddress">
           <h2>Lab Address</h2>
           <h4>Additive and Substractive Manufacturing</h4>
@@ -20,7 +17,6 @@ const Footer = () => {
           <h4>Mechanical & Industrial Department</h4>
           <h4>IIT Roorkee, 247667</h4>
           </div>
-          
         <div className="socialconnect">
           <h2>Social Connect</h2>
           <div className="icons">
@@ -31,6 +27,9 @@ const Footer = () => {
             <img className= "icon-item"src={youtube} alt="" />
           </div>
         </div>
+        <div className="footer-cv"><div className="downloadresume">
+            <a href="/resume/Varun-Sharma-Resume.pdf" target='_blank'>Download CV</a>
+        </div></div>
         <form action="">
             <h3>Interested students may contact:</h3>
             <label htmlFor="name">Name(Required)</label> <br />
