@@ -29,7 +29,7 @@ const Profile = () => {
 
             <div className="para">
                 <div className="heading">
-                <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.322 27.2L34 40.8L68 20.4L34 0L0 20.4H34V27.2H11.322ZM0 27.2V54.4L6.8 46.852V31.28L0 27.2ZM34 68L17 57.8L10.2 53.72V33.32L34 47.6L57.8 33.32V53.72L34 68Z" fill="#2D5186"/> </svg>.
+                <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.322 27.2L34 40.8L68 20.4L34 0L0 20.4H34V27.2H11.322ZM0 27.2V54.4L6.8 46.852V31.28L0 27.2ZM34 68L17 57.8L10.2 53.72V33.32L34 47.6L57.8 33.32V53.72L34 68Z" fill="#2D5186"/> </svg>
                 <h2>Education</h2>
                 </div>
                 <div className="points profileul">
