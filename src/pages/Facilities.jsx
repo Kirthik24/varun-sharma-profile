@@ -16,7 +16,6 @@ import f10 from "../assets/facilities/f10.png"
 import f11 from "../assets/facilities/f11.png"
 import f12 from "../assets/facilities/f12.png"
 import f13 from "../assets/facilities/f13.png"
-import f14 from "../assets/facilities/f14.png"
 
 const Facilities = () => {
 
@@ -133,12 +132,6 @@ const Facilities = () => {
 
 
        {/* row6 */}
-       <div className="f-horizontal">
-        <img src={f14} alt="" />
-        <h2>DAQ System</h2>
-      </div>
-
-
 
     </div>
     </div>

@@ -6,7 +6,7 @@ const RsProjects = () => {
     <div className="rsprojects">
           <div className="para">
             <div className="heading">
-            <h3>Major Projects</h3>
+            <h3>Sponsored Research Projects</h3>
             </div>
             <div className="points">
                 <ul>
