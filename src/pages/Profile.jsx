@@ -79,11 +79,6 @@ const Profile = () => {
                         December, 2016 - March, 2017<br />
                         </span></li>
 
-                        <li><span>
-                        Research Associate<br />
-                        Lovely Professional University<br />
-                        August, 2013 – December, 2013<br />
-                        </span></li>
                     </ul>
                 </div>
             </div>
