@@ -8,8 +8,8 @@ const Gallery = () => {
             <h3 className='removehead'>Gallery</h3>
          <div className="gallery">
           <div className='photo'><img src={g1} alt="" /></div>
-          <div className='v-strech photo'><img src={g2} alt="" /></div>
-          <div className='photo'><img src={g3} alt="" /></div>
+          {/* <div className='v-strech photo'><img src={g2} alt="" /></div> */}
+          {/* <div className='photo'><img src={g3} alt="" /></div> */}
           <div className='v-strech photo'><img src={g4} alt="" /></div>
           <div className='photo'><img src={g5} alt="" /></div>
           <div className='photo'><img src={g6} alt="" /></div>
@@ -23,7 +23,7 @@ const Gallery = () => {
           <div className='h-strech photo'><img src={g14} alt="" /></div>
           <div className='photo'><img src={g15} alt="" /></div>
           <div className='photo'><img src={g16} alt="" /></div>
-          <div className='photo'><img src={g17} alt="" /></div>
+          {/* <div className='photo'><img src={g17} alt="" /></div> */}
           <div className='photo'><img src={g18} alt="" /></div>
           <div className='photo'><img src={g19} alt="" /></div>
           <div className='photo'><img src={g20} alt="" /></div>

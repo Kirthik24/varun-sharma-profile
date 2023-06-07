@@ -9,7 +9,7 @@ const ResearchNav = () => {
           <div className={`rsnav-elements`}>
             <ul>
               <li>
-                <NavLink to="/research/projects">
+                <NavLink to="/research" end>
                   {" "}
                   <div className="rsselectbox">
                     <span>Projects</span>
@@ -17,7 +17,7 @@ const ResearchNav = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/research" end>
+                <NavLink to="/research/projects" end>
                   {" "}
                   <div className="rsselectbox">
                     <span>Ph.D.Theses</span>{" "}
