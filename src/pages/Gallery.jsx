@@ -14,7 +14,7 @@ const Gallery = () => {
           <div className='photo'><img src={g5} alt="" /></div>
           <div className='photo'><img src={g6} alt="" /></div>
           <div className='photo'><img src={g7} alt="" /></div>
-          <div className='v-strech photo'><img src={g8} alt="" /></div>
+          {/* <div className='v-strech photo'><img src={g8} alt="" /></div> */}
           <div className='photo'><img src={g9} alt="" /></div>
           <div className='photo'><img src={g10} alt="" /></div>
           <div className='photo'><img src={g11} alt="" /></div>
